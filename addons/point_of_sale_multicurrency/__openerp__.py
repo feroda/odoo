@@ -20,19 +20,22 @@
 ##############################################################################
 
 {
-    'name': 'Point of Sale',
-    'version': '1.0.1',
+    'name': 'Point of Sale Multi Currency',
+    'version': '0.0.1',
     'category': 'Point Of Sale',
-    'sequence': 6,
-    'summary': 'Touchscreen Interface for Shops',
+    'sequence': 7,
+    'summary': 'Touchscreen Interface for Shops that accept more than one currency',
     'description': """
-Quick and Easy sale process
-===========================
+
+MultiCurrency Quick and Easy sale process
+=========================================
+
+DISCLAIMER: copied from the point_of_sale addon
 
 This module allows you to manage your shop sales very easily with a fully web based touchscreen interface.
-It is compatible with all PC tablets and the iPad, offering multiple payment methods. 
+It is compatible with all PC tablets and the iPad, offering multiple payment methods.
 
-Product selection can be done in several ways: 
+Product selection can be done in several ways:
 
 * Using a barcode reader
 * Browsing through categories of products or via a text search.
@@ -46,8 +49,8 @@ Main Features
 * Allows the user to create an invoice automatically
 * Refund previous sales
     """,
-    'author': 'OpenERP SA',
-    'depends': ['sale_stock'],
+    'author': 'OpenERP SA + Luca Ferroni <luca@befair.it>',
+    'depends': ['sale_stock'], # it would we wonderful if we can base on the "point_of_sale" addon as a dependency. Now it is a dirty hack
     'data': [
         'data/report_paperformat.xml',
         'security/point_of_sale_security.xml',
