@@ -60,6 +60,7 @@ function openerp_pos_widgets(instance, module){ //module is instance.point_of_sa
             this.$el.find('.numpad-minus').click(_.bind(this.clickSwitchSign, this));
             this.$el.find('.number-char').click(_.bind(this.clickAppendNewChar, this));
             this.$el.find('.mode-button').click(_.bind(this.clickChangeMode, this));
+            this.$el.find('.switch-currency-button').click(_.bind(this.clickChangeCurrency, this));
         },
         clickDeleteLastChar: function() {
             return this.state.deleteLastChar();
@@ -80,6 +81,10 @@ function openerp_pos_widgets(instance, module){ //module is instance.point_of_sa
             var mode = this.state.get('mode');
             $('.selected-mode').removeClass('selected-mode');
             $(_.str.sprintf('.mode-button[data-mode="%s"]', mode), this.$el).addClass('selected-mode');
+        },
+        clickChangeCurrency: function(event) {
+            var newCurrencySymbol = event.currentTarget.innerText || event.currentTarget.textContent;
+            return this.state.changeCurrency(newCurrencySymbol);
         },
     });
 

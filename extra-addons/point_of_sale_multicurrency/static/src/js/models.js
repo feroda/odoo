@@ -255,6 +255,7 @@ function openerp_pos_models(instance, module){ //module is instance.point_of_sal
             fields: ['name','symbol','position','rounding','accuracy'],
             ids:    function(self){ return [self.pricelist.currency_id[0]]; },
             loaded: function(self, currencies){
+                self.available_currencies = currencies;
                 self.currency = currencies[0];
                 if (self.currency.rounding > 0) {
                     self.currency.decimals = Math.ceil(Math.log(1.0 / self.currency.rounding) / Math.log(10));
@@ -826,6 +827,13 @@ function openerp_pos_models(instance, module){ //module is instance.point_of_sal
             var rounding = this.pos.currency.rounding;
             return round_pr(this.get_unit_price() * this.get_quantity() * (1 - this.get_discount()/100), rounding);
         },
+
+        get_conversion_factor: function() {
+            return 0.5; //TODO: conversion value to be computed
+        },
+        get_converted_price: function(){
+            return this.get_base_price()*this.get_conversion_factor();
+        },
         get_display_price: function(){
             return this.get_base_price();
         },
@@ -1344,7 +1352,8 @@ function openerp_pos_models(instance, module){ //module is instance.point_of_sal
     module.NumpadState = Backbone.Model.extend({
         defaults: {
             buffer: "0",
-            mode: "quantity"
+            mode: "quantity",
+            currency : (this.pos && this.pos.currency) ? this.pos.currency : {symbol:'$', position: 'after', rounding: 0.01, decimals: 2};
         },
         appendNewChar: function(newChar) {
             var oldBuffer;
@@ -1400,5 +1409,8 @@ function openerp_pos_models(instance, module){ //module is instance.point_of_sal
         resetValue: function(){
             this.set({buffer:'0'});
         },
+        changeCurrency = function(newCurrencySymbol) {
+            this.set({currency: this.pos.available_currencies[newCurrencySymbol]});
+        }
     });
 }

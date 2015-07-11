@@ -173,6 +173,9 @@
                 <img src="/point_of_sale/static/src/img/backspace.png" width="24" height="21" />
             </button>
             <br />
+            <button class="switch-currency-button">$</button>
+            <button class="switch-currency-button">EUR</button>
+            <br />
         </div>
     </t>
 
@@ -768,6 +771,9 @@
             </span>
             <span class="price">
                 <t t-esc="widget.format_currency(line.get_display_price())"/>
+            </span>
+            <span class="price">
+                <t t-esc="widget.format_currency(line.get_converted_price())"/>
             </span>
             <ul class="info-list">
                 <t t-if="line.get_quantity_str() !== '1' || line.selected ">
