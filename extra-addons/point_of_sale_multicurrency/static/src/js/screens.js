@@ -321,7 +321,7 @@ function openerp_pos_screens(instance, module){ //module is instance.point_of_sa
             var self = this;
             this._super();
 
-            $('body').append('<audio src="/point_of_sale/static/src/sounds/error.wav" autoplay="true"></audio>');
+            $('body').append('<audio src="/point_of_sale_multicurrency/static/src/sounds/error.wav" autoplay="true"></audio>');
 
             this.message = options.message || _t('Error');
             this.comment = options.comment || '';
@@ -934,13 +934,13 @@ function openerp_pos_screens(instance, module){ //module is instance.point_of_sa
 
             var print_button = this.add_action_button({
                     label: _t('Print'),
-                    icon: '/point_of_sale/static/src/img/icons/png48/printer.png',
+                    icon: '/point_of_sale_multicurrency/static/src/img/icons/png48/printer.png',
                     click: function(){ self.print(); },
                 });
 
             var finish_button = this.add_action_button({
                     label: _t('Next Order'),
-                    icon: '/point_of_sale/static/src/img/icons/png48/go-next.png',
+                    icon: '/point_of_sale_multicurrency/static/src/img/icons/png48/go-next.png',
                     click: function() { self.finishOrder(); },
                 });
 
@@ -1068,7 +1068,7 @@ function openerp_pos_screens(instance, module){ //module is instance.point_of_sa
 
             this.add_action_button({
                     label: _t('Back'),
-                    icon: '/point_of_sale/static/src/img/icons/png48/go-previous.png',
+                    icon: '/point_of_sale_multicurrency/static/src/img/icons/png48/go-previous.png',
                     click: function(){  
                         self.back();
                     },
@@ -1077,7 +1077,7 @@ function openerp_pos_screens(instance, module){ //module is instance.point_of_sa
             this.add_action_button({
                     label: _t('Validate'),
                     name: 'validation',
-                    icon: '/point_of_sale/static/src/img/icons/png48/validate.png',
+                    icon: '/point_of_sale_multicurrency/static/src/img/icons/png48/validate.png',
                     click: function(){
                         self.validate_order();
                     },
@@ -1087,7 +1087,7 @@ function openerp_pos_screens(instance, module){ //module is instance.point_of_sa
                 this.add_action_button({
                         label: _t('Invoice'),
                         name: 'invoice',
-                        icon: '/point_of_sale/static/src/img/icons/png48/invoice.png',
+                        icon: '/point_of_sale_multicurrency/static/src/img/icons/png48/invoice.png',
                         click: function(){
                             self.validate_order({invoice: true});
                         },
@@ -1098,7 +1098,7 @@ function openerp_pos_screens(instance, module){ //module is instance.point_of_sa
                 this.add_action_button({
                         label: _t('Cash'),
                         name: 'cashbox',
-                        icon: '/point_of_sale/static/src/img/open-cashbox.png',
+                        icon: '/point_of_sale_multicurrency/static/src/img/open-cashbox.png',
                         click: function(){
                             self.pos.proxy.open_cashbox();
                         },

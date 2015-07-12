@@ -56,7 +56,7 @@
     import os
     import openerp.report
     from openerp import tools
-    data, format = openerp.report.render_report(cr, uid, [ref('account_bank_statement_0')], 'point_of_sale.report_statement', {}, {})
+    data, format = openerp.report.render_report(cr, uid, [ref('account_bank_statement_0')], 'point_of_sale_multicurrency.report_statement', {}, {})
     if tools.config['test_report_directory']:
         file(os.path.join(tools.config['test_report_directory'], 'point_of_sale-statement.'+format), 'wb+').write(data)
 
@@ -67,7 +67,7 @@
     import os
     import openerp.report
     from openerp import tools
-    data, format = openerp.report.render_report(cr, uid, [ref('account_bank_statement_0')], 'point_of_sale.report_usersproduct', {}, {})
+    data, format = openerp.report.render_report(cr, uid, [ref('account_bank_statement_0')], 'point_of_sale_multicurrency.report_usersproduct', {}, {})
     if tools.config['test_report_directory']:
         file(os.path.join(tools.config['test_report_directory'], 'point_of_sale-usersproduct.'+format), 'wb+').write(data)
 

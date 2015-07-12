@@ -2,7 +2,7 @@
 from openerp.osv import osv, fields
 from openerp.tools.translate import _
 
-from openerp.addons.point_of_sale.point_of_sale import pos_session
+from openerp.addons.point_of_sale_multicurrency.point_of_sale_multicurrency import pos_session
 
 
 class pos_session_opening(osv.osv_memory):

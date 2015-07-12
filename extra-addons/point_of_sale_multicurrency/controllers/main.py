@@ -26,7 +26,7 @@ class PosController(http.Controller):
         PosSession = request.registry['pos.session']
         pos_session_ids = PosSession.search(cr, uid, [('state','=','opened'),('user_id','=',session.uid)], context=context)
         if not pos_session_ids:
-            return werkzeug.utils.redirect('/web#action=point_of_sale.action_pos_session_opening')
+            return werkzeug.utils.redirect('/web#action=point_of_sale_multicurrency.action_pos_session_opening')
         PosSession.login(cr,uid,pos_session_ids,context=context)
         
         modules =  simplejson.dumps(module_boot(request.db))
@@ -40,7 +40,7 @@ class PosController(http.Controller):
                  wc.start();
                  """
 
-        html = request.registry.get('ir.ui.view').render(cr, session.uid,'point_of_sale.index',{
+        html = request.registry.get('ir.ui.view').render(cr, session.uid,'point_of_sale_multicurrency.index',{
             'modules': modules,
             'init': init,
         })
