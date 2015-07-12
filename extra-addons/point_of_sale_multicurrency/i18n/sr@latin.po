@@ -1,6 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# * point_of_sale
+# * point_of_sale_multicurrency
 # 
 # Translators:
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
@@ -18,19 +18,19 @@ msgstr ""
 "Language: sr@latin\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:report.pos.order,nbr:0
 msgid "# of Lines"
 msgstr "# Linija"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:954
 #, python-format
 msgid "% discount"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:1103
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:1143
@@ -38,79 +38,79 @@ msgstr ""
 msgid "&nbsp;"
 msgstr "&nbsp;"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.order:point_of_sale_multicurrency.view_pos_pos_form
 msgid "(update)"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.session.opening:point_of_sale_multicurrency.pos_session_opening_form_view
 msgid ") is \""
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.session:point_of_sale_multicurrency.view_pos_session_form
 msgid "+ Transactions"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:539
 #, python-format
 msgid "--------------------------------"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:844
 #, python-format
 msgid "1.54€ Lemon"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:277
 #, python-format
 msgid "123.14 €"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.lays_pickles_250g_product_template
 msgid "250g Lays Pickels"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.evian_2l_product_template
 msgid "2L Evian"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:843
 #, python-format
 msgid "3.141Kg Oranges"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.perrier_50cl_product_template
 msgid "50cl Perrier"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:77
 #, python-format
 msgid "<!--[if IE]>"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:90
 #, python-format
 msgid "<![endif]-->"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:ir.actions.act_window,help:point_of_sale_multicurrency.product_template_action
 msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
@@ -127,7 +127,7 @@ msgid ""
 "            "
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:ir.actions.act_window,help:point_of_sale_multicurrency.action_account_journal_form
 msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
@@ -141,7 +141,7 @@ msgid ""
 "            "
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:ir.actions.act_window,help:point_of_sale_multicurrency.action_pos_pos_form
 msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
@@ -154,7 +154,7 @@ msgid ""
 "            "
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:ir.actions.act_window,help:point_of_sale_multicurrency.product_pos_category_action
 msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
@@ -170,7 +170,7 @@ msgid ""
 "            "
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:ir.actions.act_window,help:point_of_sale_multicurrency.action_pos_session
 msgid ""
 "<p class=\"oe_view_nocontent_create\">\n"
@@ -187,89 +187,89 @@ msgid ""
 "            "
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.session:point_of_sale_multicurrency.view_pos_session_form
 msgid "= Theoretical Closing Balance"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/js/screens.js:739
 #, python-format
 msgid "A Customer Name Is Required"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.config:point_of_sale_multicurrency.view_pos_config_form
 msgid "A custom receipt footer message"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.config:point_of_sale_multicurrency.view_pos_config_form
 msgid "A custom receipt header message"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: help:pos.session,login_number:0
 msgid ""
 "A sequence number that is incremented each time a user resumes the pos "
 "session"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: help:pos.session,sequence_number:0
 msgid "A sequence number that is incremented with each order"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: help:pos.order,sequence_number:0
 msgid "A session-unique sequence number for the order"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: help:pos.config,receipt_footer:0
 msgid "A short text that will be inserted as a footer in the printed receipt"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: help:pos.config,receipt_header:0
 msgid "A short text that will be inserted as a header in the printed receipt"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:1142
 #, python-format
 msgid "ABC"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:website:point_of_sale_multicurrency.report_sessionsummary
 msgid "Account"
 msgstr "Nalog"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.order:point_of_sale_multicurrency.view_pos_pos_form
 msgid "Accounting Information"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: help:pos.config,journal_id:0
 msgid "Accounting journal used to post sales entries."
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.config:point_of_sale_multicurrency.view_pos_config_search
 #: selection:pos.config,state:0
 msgid "Active"
 msgstr "Aktivno"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:ir.model,name:point_of_sale_multicurrency.model_pos_discount
 msgid "Add a Global Discount"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:372
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:450
@@ -277,25 +277,25 @@ msgstr ""
 msgid "Address"
 msgstr "Adrese"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:840
 #, python-format
 msgid "Admin Badge"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:ir.actions.act_window,name:point_of_sale_multicurrency.action_pos_session
 #: model:ir.ui.menu,name:point_of_sale_multicurrency.menu_pos_session_all
 msgid "All Sessions"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:ir.actions.act_window,name:point_of_sale_multicurrency.action_pos_all_sales_lines
 msgid "All sales lines"
 msgstr "Sve prodajne linije"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.make.payment,amount:0 field:report.transaction.pos,amount:0
 #: view:website:point_of_sale_multicurrency.report_receipt
 #: view:website:point_of_sale_multicurrency.report_sessionsummary
@@ -304,67 +304,67 @@ msgstr "Sve prodajne linije"
 msgid "Amount"
 msgstr "Iznos"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:account.journal,amount_authorized_diff:0
 msgid "Amount Authorized Difference"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.order:point_of_sale_multicurrency.view_pos_order_tree
 #: view:report.transaction.pos:point_of_sale_multicurrency.view_trans_pos_user_tree
 msgid "Amount total"
 msgstr "Ukupan Iznos"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/js/screens.js:1310
 #, python-format
 msgid "An anonymous order cannot be invoiced"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: help:pos.config,name:0
 msgid "An internal identification of the point of sale"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:pos.category,name:point_of_sale_multicurrency.pomme
 msgid "Apples"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.ean_wizard:point_of_sale_multicurrency.pos_ean13_generator
 msgid "Apply"
 msgstr "Primeni"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:ir.actions.act_window,name:point_of_sale_multicurrency.action_pos_discount
 #: view:pos.discount:point_of_sale_multicurrency.view_pos_discount
 msgid "Apply Discount"
 msgstr "Prihvati Popust"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: help:pos.config,iface_cashdrawer:0
 msgid "Automatically open the cashdrawer"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.config:point_of_sale_multicurrency.view_pos_config_form
 #: field:pos.config,journal_ids:0 field:pos.session,journal_ids:0
 msgid "Available Payment Methods"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:product.template,available_in_pos:0
 msgid "Available in the Point of Sale"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:report.pos.order,average_price:0
 msgid "Average Price"
 msgstr "Srednja Cena"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/js/screens.js:1062
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:265
@@ -372,23 +372,23 @@ msgstr "Srednja Cena"
 msgid "Back"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:ir.model,name:point_of_sale_multicurrency.model_account_bank_statement
 #: field:pos.session,statement_ids:0
 msgid "Bank Statement"
 msgstr "Izvestaj Banke"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:ir.model,name:point_of_sale_multicurrency.model_account_bank_statement_line
 msgid "Bank Statement Line"
 msgstr "red Izvestaja Banke"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: help:res.users,ean13:0
 msgid "BarCode"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:349
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:391
@@ -396,73 +396,73 @@ msgstr ""
 msgid "Barcode"
 msgstr "Bar-Kod"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.config:point_of_sale_multicurrency.view_pos_config_form
 msgid ""
 "Barcode Patterns allow to match barcodes to actions or to embed information such as price and quantity in the barcode.\n"
 "                                Barcode Patterns only work with EAN13 barcodes."
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:836
 #, python-format
 msgid "Barcode Scanner"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.config:point_of_sale_multicurrency.view_pos_config_form
 msgid "Barcode Types"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:pos.category,name:point_of_sale_multicurrency.beers
 msgid "Beers"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.belle_vue_kriek_25cl_product_template
 msgid "Belle-Vue Kriek 25cl"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:pos.category,name:point_of_sale_multicurrency.rouges_noyau_fruits
 msgid "Berries"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:pos.category,name:point_of_sale_multicurrency.beverage
 msgid "Beverages"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.raisins_noir_product_template
 msgid "Black Grapes"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.boni_orange_product_template
 msgid "Boni Oranges"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.boon_framboise_37,5cl_product_template
 msgid "Boon Framboise 37.5cl"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: help:pos.config,iface_print_via_proxy:0
 msgid "Bypass browser printing and prints via the hardware proxy"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:616
 #, python-format
 msgid "CHANGE"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:418
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:712
@@ -476,86 +476,86 @@ msgstr ""
 msgid "Cancel"
 msgstr "Otkaži"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: selection:pos.order,state:0 selection:report.pos.order,state:0
 msgid "Cancelled"
 msgstr "Отказано"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/js/screens.js:1289
 #, python-format
 msgid "Cannot return change without a cash payment method"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.carotte_product_template
 msgid "Carrots"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/js/screens.js:1091
 #, python-format
 msgid "Cash"
 msgstr "Gotovina"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.session,details_ids:0
 msgid "Cash Control"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.session,cash_journal_id:0
 msgid "Cash Journal"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:report.transaction.pos,jl_id:0
 msgid "Cash Journals"
 msgstr "Dnevnik Gotovine"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:ir.actions.act_window,name:point_of_sale_multicurrency.action_new_bank_statement_tree
 #: field:pos.session,cash_register_id:0
 msgid "Cash Register"
 msgstr "Kasa"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:ir.actions.act_window,name:point_of_sale_multicurrency.action_new_bank_statement_all_tree
 #: view:pos.session:point_of_sale_multicurrency.view_pos_session_form
 msgid "Cash Registers"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:account.bank.statement:point_of_sale_multicurrency.view_pos_confirm_cash_statement_filter
 #: view:account.bank.statement:point_of_sale_multicurrency.view_pos_open_cash_statement_filter
 msgid "Cash Statement"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.session:point_of_sale_multicurrency.view_pos_session_form
 msgid "Cashbox Lines"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.config,iface_cashdrawer:0
 msgid "Cashdrawer"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.config,barcode_cashier:0
 msgid "Cashier Barcodes"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/js/screens.js:683
 #, python-format
 msgid "Change Customer"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:487
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:1008
@@ -563,115 +563,115 @@ msgstr ""
 msgid "Change:"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.chaudfontaine_1,5l_product_template
 msgid "Chaudfontaine 1.5l"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.chaudfontaine_33cl_product_template
 msgid "Chaudfontaine 33cl"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.chaudfontaine_50cl_product_template
 msgid "Chaudfontaine 50cl"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.chaudfontaine_petillante_1,5l_product_template
 msgid "Chaudfontaine Petillante 1.5l"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.chaudfontaine_petillante_33cl_product_template
 msgid "Chaudfontaine Petillante 33cl"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.chaudfontaine_petillante_50cl_product_template
 msgid "Chaudfontaine Petillante 50cl"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: help:product.template,to_weight:0
 msgid ""
 "Check if the product should be weighted using the hardware scale integration"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: help:product.template,available_in_pos:0
 msgid "Check if you want this product to appear in the Point of Sale"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: help:product.template,income_pdt:0
 msgid ""
 "Check if, this is a product you can use to put cash into a statement for the"
 " point of sale backend."
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: help:product.template,expense_pdt:0
 msgid ""
 "Check if, this is a product you can use to take cash from a statement for "
 "the point of sale backend, example: money lost, transfer to bank, etc."
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: help:account.journal,journal_user:0
 msgid ""
 "Check this box if this journal define a payment method that can be used in "
 "point of sales."
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: help:pos.config,iface_self_checkout:0
 msgid ""
 "Check this if this point of sale should open by default in a self checkout "
 "mode. If unchecked, Odoo uses the normal cashier mode by default."
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: help:pos.config,group_by:0
 msgid ""
 "Check this if you want to group the Journal Items by Product while closing a"
 " Session"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/js/screens.js:1316
 #, python-format
 msgid "Check your internet connection and try again."
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.category,child_id:0
 msgid "Children Categories"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.chimay_bleu_33cl_product_template
 msgid "Chimay Bleu 33cl"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.chimay_bleu_75cl_product_template
 msgid "Chimay Bleu 75cl"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.chimay_rouge_33cl_product_template
 msgid "Chimay Red 33cl"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:pos.category,name:point_of_sale_multicurrency.chips
 msgid "Chips"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:320
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:321
@@ -679,24 +679,24 @@ msgstr ""
 msgid "City"
 msgstr "Grad"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.session.opening:point_of_sale_multicurrency.pos_session_opening_form_view
 msgid "Click to continue the session."
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.session.opening:point_of_sale_multicurrency.pos_session_opening_form_view
 msgid "Click to start a session."
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:841
 #, python-format
 msgid "Client Badge"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/js/widgets.js:1121
 #: code:addons/point_of_sale_multicurrency/static/src/js/widgets.js:1129
@@ -704,139 +704,139 @@ msgstr ""
 msgid "Close"
 msgstr "Zatvori"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.session.opening:point_of_sale_multicurrency.pos_session_opening_form_view
 msgid "Close Session"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:account.bank.statement:point_of_sale_multicurrency.view_pos_confirm_cash_statement_filter
 #: selection:report.pos.order,state:0
 msgid "Closed"
 msgstr "Zatvoren"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: code:addons/point_of_sale_multicurrency/point_of_sale_multicurrency.py:136
 #: selection:pos.session,state:0 selection:pos.session.opening,pos_state:0
 #, python-format
 msgid "Closed & Posted"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.session:point_of_sale_multicurrency.view_pos_session_form
 msgid "Closing Cash Control"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: code:addons/point_of_sale_multicurrency/point_of_sale_multicurrency.py:135
 #: selection:pos.session,state:0 selection:pos.session.opening,pos_state:0
 #, python-format
 msgid "Closing Control"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.session,stop_at:0
 #: view:website:point_of_sale_multicurrency.report_sessionsummary
 #: view:website:point_of_sale_multicurrency.report_statement
 msgid "Closing Date"
 msgstr "Datum Zatvaranja"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.session:point_of_sale_multicurrency.view_pos_session_form
 msgid "Closing Subtotal"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.coca_light_1l_product_template
 msgid "Coca-Cola Light 1L"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.coca_light_2l_product_template
 msgid "Coca-Cola Light 2L"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.coca_light_33cl_product_template
 msgid "Coca-Cola Light 33cl"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.coca_light_decaf_33cl_product_template
 msgid "Coca-Cola Light 33cl Decaf"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.coca_light_50cl_product_template
 msgid "Coca-Cola Light 50cl"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.coca_light_lemon_2l_product_template
 msgid "Coca-Cola Light Lemon 2L"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.coca_light_lemon_33cl_product_template
 msgid "Coca-Cola Light Lemon 33cl"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.coca_light_lemon_50cl_product_template
 msgid "Coca-Cola Light Lemon 50cl"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.coca_regular_1l_product_template
 msgid "Coca-Cola Regular 1L"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.coca_regular_2l_product_template
 msgid "Coca-Cola Regular 2L"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.coca_regular_33cl_product_template
 msgid "Coca-Cola Regular 33cl"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.coca_regular_50cl_product_template
 msgid "Coca-Cola Regular 50cl"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.coca_zero_1l_product_template
 msgid "Coca-Cola Zero 1L"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.coca_zero_2l_product_template
 msgid "Coca-Cola Zero 2L"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.coca_zero_33cl_product_template
 msgid "Coca-Cola Zero 33cl"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.coca_zero_50cl_product_template
 msgid "Coca-Cola Zero 50cl"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.coca_zero_decaf_33cl_product_template
 msgid "Coca-Cola Zero Decaf 33cl"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:pos.category,name:point_of_sale_multicurrency.coke
 msgid "Coke"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.config,company_id:0 field:pos.order,company_id:0
 #: field:pos.order.line,company_id:0 field:report.pos.order,company_id:0
 #: view:website:point_of_sale_multicurrency.report_detailsofsales
@@ -847,28 +847,28 @@ msgstr ""
 msgid "Company"
 msgstr "Preduzeće"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:pos.category,name:point_of_sale_multicurrency.computers
 msgid "Computers"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.poire_conference_product_template
 msgid "Conference pears"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:ir.ui.menu,name:point_of_sale_multicurrency.menu_point_config_product
 msgid "Configuration"
 msgstr "Podešavanje"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: code:addons/point_of_sale_multicurrency/point_of_sale_multicurrency.py:874
 #, python-format
 msgid "Configuration Error!"
 msgstr "Greška podešavanja!"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/js/widgets.js:1126
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:709
@@ -876,40 +876,40 @@ msgstr "Greška podešavanja!"
 msgid "Confirm"
 msgstr "Potvrdi"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/js/models.js:98
 #, python-format
 msgid "Connecting to the PosBox"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.session:point_of_sale_multicurrency.view_pos_session_form
 msgid "Continue Selling"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/js/screens.js:829
 #, python-format
 msgid "Could Not Read Image"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/js/widgets.js:1239
 #, python-format
 msgid "Could not close the point of sale."
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:328
 #, python-format
 msgid "Country"
 msgstr "Država"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.category,create_uid:0 field:pos.config,create_uid:0
 #: field:pos.confirm,create_uid:0 field:pos.details,create_uid:0
 #: field:pos.discount,create_uid:0 field:pos.ean_wizard,create_uid:0
@@ -919,7 +919,7 @@ msgstr "Država"
 msgid "Created by"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.category,create_date:0 field:pos.config,create_date:0
 #: field:pos.confirm,create_date:0 field:pos.details,create_date:0
 #: field:pos.discount,create_date:0 field:pos.ean_wizard,create_date:0
@@ -929,217 +929,217 @@ msgstr ""
 msgid "Created on"
 msgstr "Kreiran"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.order.line,create_date:0
 msgid "Creation Date"
 msgstr "Datum kreiranja"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.croky_bolognaise_250g_product_template
 msgid "Croky Bolognese 250g"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.croky_naturel_45g_product_template
 msgid "Croky Natural 45g"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.croky_paprika_45g_product_template
 msgid "Croky Paprika 45g"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.config,currency_id:0
 #: view:website:point_of_sale_multicurrency.report_sessionsummary
 msgid "Currency"
 msgstr "Valuta"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.session,currency_id:0
 msgid "Currnecy"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:839
 #, python-format
 msgid "Custom Ean13"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.order:point_of_sale_multicurrency.view_pos_order_filter
 #: field:pos.order,partner_id:0
 msgid "Customer"
 msgstr "Musterija"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.config,barcode_customer:0
 msgid "Customer Barcodes"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: code:addons/point_of_sale_multicurrency/point_of_sale_multicurrency.py:1002
 #, python-format
 msgid "Customer Invoice"
 msgstr "Račun kupca"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:ir.ui.menu,name:point_of_sale_multicurrency.menu_point_of_sale
 msgid "Daily Operations"
 msgstr "Dnevni Zadaci"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:report.transaction.pos,date_create:0
 #: view:website:point_of_sale_multicurrency.report_detailsofsales
 #: view:website:point_of_sale_multicurrency.report_sessionsummary
 msgid "Date"
 msgstr "Datum"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.details,date_end:0
 msgid "Date End"
 msgstr "Datum Zavrsetka"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:report.pos.order,date:0
 msgid "Date Order"
 msgstr "Datum zahteva"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.details,date_start:0
 msgid "Date Start"
 msgstr "Pocetni datum"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:website:point_of_sale_multicurrency.report_receipt
 msgid "Date:"
 msgstr "Datum:"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.details:point_of_sale_multicurrency.view_pos_details
 msgid "Dates"
 msgstr "Datumi"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:826
 #, python-format
 msgid "Debug Window"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:res.users,pos_config:0
 msgid "Default Point of Sale"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:report.pos.order,delay_validation:0
 msgid "Delay Validation"
 msgstr "Kasnjenje Potvrde"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:853
 #, python-format
 msgid "Delete All Unsent Orders"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/js/widgets.js:812
 #, python-format
 msgid "Delete Unsent Orders ?"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: selection:pos.config,state:0
 msgid "Deprecated"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:website:point_of_sale_multicurrency.report_receipt
 #: view:website:point_of_sale_multicurrency.report_saleslines
 #: view:website:point_of_sale_multicurrency.report_sessionsummary
 msgid "Description"
 msgstr "Opis"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/js/screens.js:686
 #, python-format
 msgid "Deselect Customer"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/js/widgets.js:984
 #, python-format
 msgid "Destroy Current Order ?"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:ir.actions.report.xml,name:point_of_sale_multicurrency.pos_lines_detail
 #: view:website:point_of_sale_multicurrency.report_detailsofsales
 msgid "Details of Sales"
 msgstr "Detalji Prodaje"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.session,cash_register_difference:0
 #: view:website:point_of_sale_multicurrency.report_sessionsummary
 msgid "Difference"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: help:pos.session,cash_register_difference:0
 msgid ""
 "Difference between the theoretical closing balance and the real closing "
 "balance."
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:162
 #, python-format
 msgid "Disc"
 msgstr "Popust"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:website:point_of_sale_multicurrency.report_detailsofsales
 msgid "Disc(%)"
 msgstr "popust(%)"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:report.transaction.pos,disc:0
 msgid "Disc."
 msgstr "Popust."
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:website:point_of_sale_multicurrency.report_saleslines
 msgid "Disc. (%)"
 msgstr "Popust (%)"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:website:point_of_sale_multicurrency.report_payment
 msgid "Disc.(%)"
 msgstr "Popust(%)"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.discount,discount:0 field:pos.order.line,discount:0
 msgid "Discount (%)"
 msgstr "Popust (%)"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.config,barcode_discount:0
 msgid "Discount Barcodes"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.order.line,notice:0
 msgid "Discount Notice"
 msgstr "Napomena Popusta"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:559
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:983
@@ -1147,89 +1147,89 @@ msgstr "Napomena Popusta"
 msgid "Discount:"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:625
 #, python-format
 msgid "Discounts"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.open.statement:point_of_sale_multicurrency.view_pos_open_statement
 msgid "Do you want to open cash registers?"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.order:point_of_sale_multicurrency.view_pos_order_filter
 msgid "Done"
 msgstr "Gotovo"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.oetker_margherita_product_template
 msgid "Dr. Oetker La Margherita"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.oetker_bolognese_product_template
 msgid "Dr. Oetker Ristorante Bolognese"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.oetker_funghi_product_template
 msgid "Dr. Oetker Ristorante Funghi"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.oetker_hawaii_product_template
 msgid "Dr. Oetker Ristorante Hawaii"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.oetker_mozzarella_product_template
 msgid "Dr. Oetker Ristorante Mozzarella"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.oetker_pollo_product_template
 msgid "Dr. Oetker Ristorante Pollo"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.oetker_prosciutto_product_template
 msgid "Dr. Oetker Ristorante Prosciutto"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.oetker_4formaggi_product_template
 msgid "Dr. Oetker Ristorante Quattro Formaggi"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.oetker_speciale_product_template
 msgid "Dr. Oetker Ristorante Speciale"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.oetker_spinaci_product_template
 msgid "Dr. Oetker Ristorante Spinaci"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.oetker_tonno_product_template
 msgid "Dr. Oetker Ristorante Tonno"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.oetker_vegetale_product_template
 msgid "Dr. Oetker Ristorante Vegetable"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:res.users,ean13:0
 msgid "EAN13"
 msgstr "EAN13"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.config:point_of_sale_multicurrency.view_pos_config_form
 msgid ""
 "Each type of barcode accepts a list of patterns seprated by commas. A scanned \n"
@@ -1245,17 +1245,17 @@ msgid ""
 "                                the POS."
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.ean_wizard:point_of_sale_multicurrency.pos_ean13_generator
 msgid "Ean13 Generator"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:ir.actions.act_window,name:point_of_sale_multicurrency.action_edit_ean
 msgid "Edit Ean"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:829
 #: field:pos.config,iface_electronic_scale:0
@@ -1263,7 +1263,7 @@ msgstr ""
 msgid "Electronic Scale"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:341
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:376
@@ -1271,80 +1271,80 @@ msgstr ""
 msgid "Email"
 msgstr "E-mail"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/js/screens.js:1260
 #, python-format
 msgid "Empty Order"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: help:pos.config,iface_scan_via_proxy:0
 msgid "Enable barcode scanning with a remotely connected barcode scanner"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: help:pos.config,iface_electronic_scale:0
 msgid "Enables Electronic Scale integration"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: help:pos.config,iface_payment_terminal:0
 msgid "Enables Payment Terminal integration"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: help:pos.config,iface_vkeyboard:0
 msgid "Enables an integrated Virtual Keyboard"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: help:pos.config,iface_invoicing:0
 msgid "Enables invoice generation from the Point of Sale"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:website:point_of_sale_multicurrency.report_detailsofsales
 msgid "End Period"
 msgstr "Zavrsni Period"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.session:point_of_sale_multicurrency.view_pos_session_form
 msgid "End of Session"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.session,cash_register_balance_end_real:0
 #: view:website:point_of_sale_multicurrency.report_sessionsummary
 #: view:website:point_of_sale_multicurrency.report_statement
 msgid "Ending Balance"
 msgstr "Krajnje Stanje"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:website:point_of_sale_multicurrency.report_usersproduct
 msgid "Ending Date"
 msgstr "Krajnji Datum"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.ean_wizard:point_of_sale_multicurrency.pos_ean13_generator
 msgid ""
 "Enter a reference, it will be converted\n"
 "                        automatically to a valid EAN number."
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/js/screens.js:326
 #, python-format
 msgid "Error"
 msgstr "Greska"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: constraint:pos.category:0
 msgid "Error ! You cannot create recursive categories."
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: code:addons/point_of_sale_multicurrency/point_of_sale_multicurrency.py:383
 #: code:addons/point_of_sale_multicurrency/point_of_sale_multicurrency.py:496
 #: code:addons/point_of_sale_multicurrency/point_of_sale_multicurrency.py:499
@@ -1365,19 +1365,19 @@ msgstr ""
 msgid "Error!"
 msgstr "Greska !"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/js/screens.js:757
 #, python-format
 msgid "Error: Could not Save Changes"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: constraint:res.partner:0 constraint:res.users:0
 msgid "Error: Invalid ean code"
 msgstr "Greška: Neispravan EAN kod"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/js/models.js:234
 #, python-format
@@ -1388,151 +1388,151 @@ msgid ""
 "to the wrong company."
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.evian_1l_product_template
 msgid "Evian 1L"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.evian_50cl_product_template
 msgid "Evian 50cl"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.chicon_flandria_extra_product_template
 msgid "Extra Flandria chicory"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.order:point_of_sale_multicurrency.view_pos_pos_form
 msgid "Extra Info"
 msgstr "Posebne Informacije"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.fanta_orange_25cl_product_template
 msgid "Fanta Orange 25cl"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.fanta_orange_2l_product_template
 msgid "Fanta Orange 2L"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.fanta_orange_33cl_product_template
 msgid "Fanta Orange 33cl"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.fanta_orange_50cl_product_template
 msgid "Fanta Orange 50cl"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.fanta_zero_orange_1,5l_product_template
 msgid "Fanta Orange Zero 1.5L"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.fanta_zero_orange_33cl_product_template
 msgid "Fanta Zero Orange 33cl"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.config:point_of_sale_multicurrency.view_pos_config_form
 msgid "Features"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.fenouil_fenouil_product_template
 msgid "Fennel"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:pos.category,name:point_of_sale_multicurrency.food
 msgid "Food"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: help:pos.config,iface_big_scrollbars:0
 msgid "For imprecise industrial touchscreens"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:pos.category,name:point_of_sale_multicurrency.fruits
 msgid "Fresh Fruits"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:pos.category,name:point_of_sale_multicurrency.legumes
 msgid "Fresh vegetables"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:pos.category,name:point_of_sale_multicurrency.fruity_beers
 msgid "Fruity Beers"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.order:point_of_sale_multicurrency.view_pos_pos_form
 msgid "General Information"
 msgstr "Opšte informacije"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.confirm:point_of_sale_multicurrency.view_pos_confirm
 msgid "Generate Entries"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.confirm:point_of_sale_multicurrency.view_pos_confirm
 msgid "Generate Journal Entries"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.confirm:point_of_sale_multicurrency.view_pos_confirm
 msgid ""
 "Generate all sale journal entries for non invoiced orders linked to a closed"
 " cash register or statement."
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: help:pos.category,sequence:0
 msgid "Gives the sequence order when displaying a list of product categories."
 msgstr "Daje redosled sekvenci pri prikazu liste kategorije proizvoda."
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.pomme_golden_perlim_product_template
 msgid "Golden Apples Perlim"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:96
 #, python-format
 msgid "Google Chrome"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.pomme_granny_smith_product_template
 msgid "Granny Smith apples"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:pos.category,name:point_of_sale_multicurrency.raisins
 msgid "Grapes"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.poivron_verts_product_template
 msgid "Green Peppers"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.grisette_cerise_25cl_product_template
 msgid "Grisette Cherry 25cl"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:account.bank.statement:point_of_sale_multicurrency.view_pos_confirm_cash_statement_filter
 #: view:account.bank.statement:point_of_sale_multicurrency.view_pos_open_cash_statement_filter
 #: view:pos.order:point_of_sale_multicurrency.view_pos_order_filter
@@ -1541,36 +1541,36 @@ msgstr ""
 msgid "Group By"
 msgstr "Grupisano po"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.config,group_by:0
 msgid "Group Journal Items"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:860
 #, python-format
 msgid "Hardware Events"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.config:point_of_sale_multicurrency.view_pos_config_form
 msgid "Hardware Proxy"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:856
 #, python-format
 msgid "Hardware Status"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.session,cash_control:0
 msgid "Has Cash Control"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.category,id:0 field:pos.config,id:0 field:pos.confirm,id:0
 #: field:pos.details,id:0 field:pos.discount,id:0 field:pos.ean_wizard,id:0
 #: field:pos.make.payment,id:0 field:pos.open.statement,id:0
@@ -1588,94 +1588,94 @@ msgstr ""
 msgid "ID"
 msgstr "ID"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.ijsboerke_dame_blanche_2,5l_product_template
 msgid "IJsboerke 2.5L White Lady"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.ijsboerke_chocolat_2,5l_product_template
 msgid "IJsboerke Chocolat 2.5L"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.ijsboerke_moka_2,5l_product_template
 msgid "IJsboerke Mocha 2.5L"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.ijsboerke_stracciatella_2,5l_product_template
 msgid "IJsboerke Stracciatella 2.5L"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.ijsboerke_vanille_2,5l_product_template
 msgid "IJsboerke Vanilla 2.5L"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.config,proxy_ip:0
 msgid "IP Address"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:pos.category,name:point_of_sale_multicurrency.ice_cream
 msgid "Ice Cream"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.category,image:0
 msgid "Image"
 msgstr "Slika"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.tomate_en_grappe_product_template
 msgid "In Cluster Tomatoes"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: code:addons/point_of_sale_multicurrency/point_of_sale_multicurrency.py:134
 #: selection:pos.session,state:0 selection:pos.session.opening,pos_state:0
 #, python-format
 msgid "In Progress"
 msgstr "U Progresu"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: code:addons/point_of_sale_multicurrency/point_of_sale_multicurrency.py:653
 #, python-format
 msgid "In order to delete a sale, it must be new or cancelled."
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.config:point_of_sale_multicurrency.view_pos_config_search
 #: selection:pos.config,state:0
 msgid "Inactive"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.order,note:0
 msgid "Internal Notes"
 msgstr "Interne Beleske"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:846
 #, python-format
 msgid "Invalid Ean"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:ir.actions.report.xml,name:point_of_sale_multicurrency.pos_invoice_report
 #: view:pos.order:point_of_sale_multicurrency.view_pos_pos_form field:pos.order,invoice_id:0
 msgid "Invoice"
 msgstr "Faktura"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:report.transaction.pos,invoice_am:0
 msgid "Invoice Amount"
 msgstr "Iznos Fakture"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.order:point_of_sale_multicurrency.view_pos_order_filter
 #: selection:pos.order,state:0
 #: view:report.pos.order:point_of_sale_multicurrency.view_report_pos_order_search
@@ -1684,22 +1684,22 @@ msgstr "Iznos Fakture"
 msgid "Invoiced"
 msgstr "Fakturisani"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:ir.actions.act_window,name:point_of_sale_multicurrency.action_pos_invoice
 msgid "Invoices"
 msgstr "Fakture"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.config,iface_invoicing:0
 msgid "Invoicing"
 msgstr "Fakturisanje"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.pomme_jonagold_product_template
 msgid "Jonagold apples"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:account.bank.statement:point_of_sale_multicurrency.view_pos_confirm_cash_statement_filter
 #: view:account.bank.statement:point_of_sale_multicurrency.view_pos_open_cash_statement_filter
 #: model:ir.model,name:point_of_sale_multicurrency.model_account_journal
@@ -1709,32 +1709,32 @@ msgstr ""
 msgid "Journal"
 msgstr "Dnevnik"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.order,account_move:0
 msgid "Journal Entry"
 msgstr "Sadrzaj dnevnika"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.config:point_of_sale_multicurrency.view_pos_config_form
 msgid "Journals"
 msgstr "Dnevnici"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.jupiler_33cl_product_template
 msgid "Jupiler 33cl"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.jupiler_50cl_product_template
 msgid "Jupiler 50cl"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.config,iface_big_scrollbars:0
 msgid "Large Scrollbars"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.category,write_uid:0 field:pos.config,write_uid:0
 #: field:pos.confirm,write_uid:0 field:pos.details,write_uid:0
 #: field:pos.discount,write_uid:0 field:pos.ean_wizard,write_uid:0
@@ -1744,7 +1744,7 @@ msgstr ""
 msgid "Last Updated by"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.category,write_date:0 field:pos.config,write_date:0
 #: field:pos.confirm,write_date:0 field:pos.details,write_date:0
 #: field:pos.discount,write_date:0 field:pos.ean_wizard,write_date:0
@@ -1754,100 +1754,100 @@ msgstr ""
 msgid "Last Updated on"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.lays_ketchup_250g_product_template
 msgid "Lays Ketchup 250g"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.lays_light_paprika_170g_product_template
 #: model:product.template,name:point_of_sale_multicurrency.lays_paprika_170g_product_template
 msgid "Lays Light Paprika 170g"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.lays_naturel_45g_product_template
 msgid "Lays Natural 45g"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.lays_light_naturel_170g_product_template
 #: model:product.template,name:point_of_sale_multicurrency.lays_naturel_170g_product_template
 msgid "Lays Natural Light 170g"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.lays_naturel_300g_product_template
 msgid "Lays Natural XXL 300g"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.lays_paprika_45g_product_template
 msgid "Lays Paprika 45g"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.lays_paprika_300g_product_template
 msgid "Lays Paprika XXL 300g"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.lays_poivre_sel_oven_150g_product_template
 msgid "Lays Salt and Pepper Oven Baked 150g"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.poireaux_poireaux_product_template
 msgid "Leeks"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.leffe_blonde_33cl_product_template
 msgid "Leffe Blonde 33cl"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.leffe_9_33cl_product_template
 msgid "Leffe Brune \"9\" 33cl"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.leffe_brune_33cl_product_template
 msgid "Leffe Brune 33cl"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.citron_product_template
 msgid "Lemon"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.lindemans_kriek_37,5cl_product_template
 msgid "Lindemans Kriek 37.5cl"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.lindemans_pecheresse_37,,5cl_product_template
 msgid "Lindemans sinful 37.5cl"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.order.line,name:0
 msgid "Line No"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:ir.model,name:point_of_sale_multicurrency.model_pos_order_line
 msgid "Lines of Point of Sale"
 msgstr "Blagajne"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: code:addons/point_of_sale_multicurrency/wizard/pos_open_statement.py:80
 #, python-format
 msgid "List of Cash Registers"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/js/models.js:120
 #: code:addons/point_of_sale_multicurrency/static/src/js/models.js:385
@@ -1856,42 +1856,42 @@ msgstr ""
 msgid "Loading"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.order,location_id:0 field:report.pos.order,location_id:0
 msgid "Location"
 msgstr "Lokacija"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.session,login_number:0
 msgid "Login Sequence Number"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.maes_33cl_product_template
 msgid "Maes 33cl"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.maes_50cl_product_template
 msgid "Maes 50cl"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.make.payment:point_of_sale_multicurrency.view_pos_payment
 msgid "Make Payment"
 msgstr "Uradi placanje"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:res.groups,name:point_of_sale_multicurrency.group_pos_manager
 msgid "Manager"
 msgstr "Menadžer"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.category,image_medium:0
 msgid "Medium-sized image"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: help:pos.category,image_medium:0
 msgid ""
 "Medium-sized image of the category. It is automatically resized as a "
@@ -1899,7 +1899,7 @@ msgid ""
 "or some kanban views."
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: code:addons/point_of_sale_multicurrency/point_of_sale_multicurrency.py:799
 #, python-format
 msgid ""
@@ -1907,34 +1907,34 @@ msgid ""
 " those fields and try again."
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.session:point_of_sale_multicurrency.view_pos_session_form
 msgid "Money In"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.session:point_of_sale_multicurrency.view_pos_session_form
 msgid "Money Out"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:report.pos.order:point_of_sale_multicurrency.view_report_pos_order_search
 msgid "Month of order date"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:95
 #, python-format
 msgid "Mozilla Firefox"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:report.pos.order:point_of_sale_multicurrency.view_report_pos_order_search
 msgid "My Sales"
 msgstr "Moje Prodaje"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:385
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:396
@@ -1943,7 +1943,7 @@ msgstr "Moje Prodaje"
 msgid "N/A"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:308
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:449
@@ -1953,111 +1953,111 @@ msgstr ""
 msgid "Name"
 msgstr "Ime"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:report.transaction.pos,invoice_id:0
 msgid "Nbr Invoice"
 msgstr "Rbr Fakture"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/js/screens.js:1270
 #, python-format
 msgid "Negative Bank Payment"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:website:point_of_sale_multicurrency.report_payment
 msgid "Net Total"
 msgstr "Neto Ukupno"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.order:point_of_sale_multicurrency.view_pos_order_filter
 #: selection:pos.order,state:0 selection:report.pos.order,state:0
 msgid "New"
 msgstr "Novo"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.session.opening:point_of_sale_multicurrency.pos_session_opening_form_view
 msgid "New Session"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/js/screens.js:942
 #, python-format
 msgid "Next Order"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: code:addons/point_of_sale_multicurrency/wizard/pos_open_statement.py:49
 #, python-format
 msgid "No Cash Register Defined!"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: code:addons/point_of_sale_multicurrency/point_of_sale_multicurrency.py:1288
 #, python-format
 msgid "No Pricelist!"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: code:addons/point_of_sale_multicurrency/point_of_sale_multicurrency.py:594
 #, python-format
 msgid ""
 "No cash statement found for this session. Unable to record returned cash."
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: code:addons/point_of_sale_multicurrency/report/pos_invoice.py:46
 #, python-format
 msgid "No link to an invoice for %s., "
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:website:point_of_sale_multicurrency.report_saleslines
 msgid "No. Of Articles"
 msgstr "Br.Artikala"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:330
 #, python-format
 msgid "None"
 msgstr "Ništa"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:report.pos.order:point_of_sale_multicurrency.view_report_pos_order_search
 msgid "Not Invoiced"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.order:point_of_sale_multicurrency.view_pos_pos_form
 msgid "Notes"
 msgstr "Napomene"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.order,nb_print:0
 msgid "Number of Print"
 msgstr "Br. Odstampanih"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:report.transaction.pos,no_trans:0
 msgid "Number of Transaction"
 msgstr "Broj Transakcija"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:website:point_of_sale_multicurrency.index
 msgid "Odoo POS"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/js/widgets.js:899
 #, python-format
 msgid "Offline"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:661
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:675
@@ -2067,125 +2067,125 @@ msgstr ""
 msgid "Ok"
 msgstr "U redu"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.Onions_product_template
 msgid "Onions"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:pos.category,name:point_of_sale_multicurrency.oignons_ail_echalotes
 msgid "Onions / Garlic / Shallots"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/js/screens.js:815
 #, python-format
 msgid "Only web-compatible Image formats such as .png or .jpeg are supported"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:account.bank.statement:point_of_sale_multicurrency.view_pos_confirm_cash_statement_filter
 #: view:account.bank.statement:point_of_sale_multicurrency.view_pos_open_cash_statement_filter
 #: view:pos.session:point_of_sale_multicurrency.view_pos_session_search
 msgid "Open"
 msgstr "Otvori"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:ir.actions.act_window,name:point_of_sale_multicurrency.action_pos_open_statement
 msgid "Open Cash Register"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:862
 #, python-format
 msgid "Open Cashbox"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:ir.actions.client,name:point_of_sale_multicurrency.action_client_pos_menu
 msgid "Open POS Menu"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.open.statement:point_of_sale_multicurrency.view_pos_open_statement
 msgid "Open Registers"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.session.opening:point_of_sale_multicurrency.pos_session_opening_form_view
 msgid "Open Session"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:ir.actions.act_window,name:point_of_sale_multicurrency.act_pos_open_statement
 #: model:ir.model,name:point_of_sale_multicurrency.model_pos_open_statement
 #: view:pos.open.statement:point_of_sale_multicurrency.view_pos_open_statement
 msgid "Open Statements"
 msgstr "Otvorene Izjave"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.session:point_of_sale_multicurrency.view_pos_session_form
 msgid "Opening Balance"
 msgstr "Stanje pri otvaranju"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.session:point_of_sale_multicurrency.view_pos_session_form
 #: field:pos.session,opening_details_ids:0
 msgid "Opening Cash Control"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.session:point_of_sale_multicurrency.view_pos_session_form
 msgid "Opening Cashbox Lines"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: code:addons/point_of_sale_multicurrency/point_of_sale_multicurrency.py:133
 #: selection:pos.session,state:0 selection:pos.session.opening,pos_state:0
 #, python-format
 msgid "Opening Control"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.session,start_at:0
 #: view:website:point_of_sale_multicurrency.report_sessionsummary
 #: view:website:point_of_sale_multicurrency.report_statement
 msgid "Opening Date"
 msgstr "Datum Otvaranja"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.session:point_of_sale_multicurrency.view_pos_session_form
 msgid "Opening Subtotal"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:pos.category,name:point_of_sale_multicurrency.soda_orange
 msgid "Orange"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.papillon_orange_product_template
 msgid "Orange Butterfly"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:pos.category,name:point_of_sale_multicurrency.oranges
 msgid "Oranges"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.orangina_1,5l_product_template
 msgid "Orangina 1.5L"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.orangina_33cl_product_template
 msgid "Orangina 33cl"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:280
 #: view:website:point_of_sale_multicurrency.report_detailsofsales
@@ -2193,51 +2193,51 @@ msgstr ""
 msgid "Order"
 msgstr "Nalog"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/js/models.js:983
 #, python-format
 msgid "Order "
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.order,date_order:0 field:report.sales.by.user.pos,date_order:0
 #: field:report.sales.by.user.pos.month,date_order:0
 msgid "Order Date"
 msgstr "Datum Narudzbe"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.config,sequence_id:0
 msgid "Order IDs Sequence"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.order,lines:0
 msgid "Order Lines"
 msgstr "Stavke naloga"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.order:point_of_sale_multicurrency.view_pos_order_filter
 #: view:report.pos.order:point_of_sale_multicurrency.view_report_pos_order_search
 msgid "Order Month"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.order,name:0 field:pos.order.line,order_id:0
 msgid "Order Ref"
 msgstr "Veze naloga"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.session,sequence_number:0
 msgid "Order Sequence Number"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.order:point_of_sale_multicurrency.view_pos_pos_form
 msgid "Order lines"
 msgstr "Linije zahteva"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:ir.actions.act_window,name:point_of_sale_multicurrency.act_pos_session_orders
 #: model:ir.actions.act_window,name:point_of_sale_multicurrency.action_pos_pos_form
 #: model:ir.ui.menu,name:point_of_sale_multicurrency.menu_point_ofsale
@@ -2245,38 +2245,38 @@ msgstr "Linije zahteva"
 msgid "Orders"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:ir.actions.act_window,name:point_of_sale_multicurrency.action_report_pos_order_all
 #: model:ir.ui.menu,name:point_of_sale_multicurrency.menu_report_pos_order_all
 msgid "Orders Analysis"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.orval_33cl_product_template
 msgid "Orval 33cl"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:pos.category,name:point_of_sale_multicurrency.autres_agrumes
 msgid "Other Citrus"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:pos.category,name:point_of_sale_multicurrency.autres_legumes_frais
 msgid "Other fresh vegetables"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.lays_naturel_oven_150g_product_template
 msgid "Oven Baked Lays Natural 150g"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.lays_paprika_oven_150g_product_template
 msgid "Oven Baked Lays Paprika 150g"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:report.sales.by.user.pos:point_of_sale_multicurrency.view_report_sales_by_user_pos_form
 #: view:report.sales.by.user.pos:point_of_sale_multicurrency.view_report_sales_by_user_pos_tree
 #: view:report.sales.by.user.pos.month:point_of_sale_multicurrency.view_report_sales_by_user_pos_month_form
@@ -2286,37 +2286,37 @@ msgstr ""
 msgid "POS"
 msgstr "POS"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.details:point_of_sale_multicurrency.view_pos_details
 msgid "POS Details"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:website:point_of_sale_multicurrency.report_saleslines
 msgid "POS Lines"
 msgstr "Blagajne"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.order.line:point_of_sale_multicurrency.view_pos_order_line_form
 msgid "POS Order line"
 msgstr "Linija POS zahteva"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.order.line:point_of_sale_multicurrency.view_pos_order_line
 msgid "POS Order lines"
 msgstr "POS nalozi"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.order:point_of_sale_multicurrency.view_pos_order_tree
 msgid "POS Orders"
 msgstr "POS Nalozi"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.order.line:point_of_sale_multicurrency.view_pos_order_tree_all_sales_lines
 msgid "POS Orders lines"
 msgstr "Linije POS ZAhteva"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:report.sales.by.user.pos:point_of_sale_multicurrency.view_report_sales_by_user_pos_calendar
 #: view:report.sales.by.user.pos.month:point_of_sale_multicurrency.view_report_sales_by_user_pos_month_calendar
 #: view:report.transaction.pos:point_of_sale_multicurrency.view_report_transaction_pos_calendar
@@ -2324,29 +2324,29 @@ msgstr "Linije POS ZAhteva"
 msgid "POS Report"
 msgstr "POS Izvestaj"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:report.pos.order:point_of_sale_multicurrency.view_report_pos_order_search
 msgid "POS ordered created during current year"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.order,amount_paid:0 selection:pos.order,state:0
 msgid "Paid"
 msgstr "Plaćeni"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:475
 #, python-format
 msgid "Paid:"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.category,parent_id:0
 msgid "Parent Category"
 msgstr "Nad kategorija"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:ir.model,name:point_of_sale_multicurrency.model_res_partner
 #: field:report.pos.order,partner_id:0
 #: view:website:point_of_sale_multicurrency.report_sessionsummary
@@ -2354,12 +2354,12 @@ msgstr "Nad kategorija"
 msgid "Partner"
 msgstr "Partner"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.make.payment:point_of_sale_multicurrency.view_pos_payment
 msgid "Pay Order"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: code:addons/point_of_sale_multicurrency/wizard/pos_payment.py:75
 #: model:ir.actions.act_window,name:point_of_sale_multicurrency.action_pos_payment
 #: view:pos.order:point_of_sale_multicurrency.view_pos_pos_form
@@ -2368,55 +2368,55 @@ msgstr ""
 msgid "Payment"
 msgstr "Isplata"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.make.payment,payment_date:0
 msgid "Payment Date"
 msgstr "Datum Isplate"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:ir.actions.act_window,name:point_of_sale_multicurrency.action_account_journal_form
 #: model:ir.ui.menu,name:point_of_sale_multicurrency.menu_action_account_journal_form_open
 msgid "Payment Methods"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.make.payment,journal_id:0
 #: view:website:point_of_sale_multicurrency.report_receipt
 msgid "Payment Mode"
 msgstr "Način plaćanja"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.make.payment,payment_name:0
 msgid "Payment Reference"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.config,iface_payment_terminal:0
 msgid "Payment Terminal"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.order:point_of_sale_multicurrency.view_pos_pos_form
 #: field:pos.order,statement_ids:0
 msgid "Payments"
 msgstr "Placanja"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.nectarine_product_template
 msgid "Peach"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.peche_product_template
 msgid "Peaches"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:pos.category,name:point_of_sale_multicurrency.poire
 msgid "Pears"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/js/widgets.js:1251
 #, python-format
@@ -2425,55 +2425,55 @@ msgid ""
 "Are you sure you want to leave this session?"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.pepsi_2l_product_template
 msgid "Pepsi 2L"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.pepsi_33cl_product_template
 msgid "Pepsi 33cl"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.pepsi_max_2l_product_template
 msgid "Pepsi Max 2L"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.pepsi_max_33cl_product_template
 msgid "Pepsi Max 33cl"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.pepsi_max_50cl_product_template
 msgid "Pepsi Max 50cl"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.pepsi_max_lemon_33cl_product_template
 msgid "Pepsi Max Cool Lemon 33cl"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:account.bank.statement:point_of_sale_multicurrency.view_pos_confirm_cash_statement_filter
 #: view:account.bank.statement:point_of_sale_multicurrency.view_pos_open_cash_statement_filter
 msgid "Period"
 msgstr "Razdoblje"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.perrier_1l_product_template
 msgid "Perrier 1L"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: help:pos.order,user_id:0
 msgid ""
 "Person who uses the the cash register. It can be a reliever, a student or an"
 " interim employee."
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:345
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:380
@@ -2482,51 +2482,51 @@ msgstr ""
 msgid "Phone"
 msgstr "Telefon:"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:932
 #, python-format
 msgid "Phone:"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.order,picking_id:0
 msgid "Picking"
 msgstr "Biranje"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.config,picking_type_id:0 field:pos.order,picking_type_id:0
 msgid "Picking Type"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:pos.category,name:point_of_sale_multicurrency.pils
 msgid "Pils"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:pos.category,name:point_of_sale_multicurrency.pizza
 msgid "Pizza"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:pos.category,name:point_of_sale_multicurrency.plain_water
 msgid "Plain Water"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: code:addons/point_of_sale_multicurrency/point_of_sale_multicurrency.py:1148
 #, python-format
 msgid "Please define income account for this product: \"%s\" (id:%d)."
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: code:addons/point_of_sale_multicurrency/point_of_sale_multicurrency.py:954
 #, python-format
 msgid "Please provide a partner for the sale."
 msgstr "Molim postavi partnera za prodaju"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/js/screens.js:1311
 #, python-format
@@ -2535,27 +2535,27 @@ msgid ""
 "order tab"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:stock.picking.type,name:point_of_sale_multicurrency.picking_type_posout
 msgid "PoS Orders"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:account.journal,journal_user:0
 msgid "PoS Payment Method"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.session.opening,pos_session_id:0
 msgid "PoS Session"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.session.opening:point_of_sale_multicurrency.pos_session_opening_form_view
 msgid "PoS Session Opening"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:account.journal:point_of_sale_multicurrency.view_account_journal_pos_user_form
 #: model:ir.model,name:point_of_sale_multicurrency.model_pos_order
 #: model:ir.ui.menu,name:point_of_sale_multicurrency.menu_point_rep
@@ -2568,113 +2568,113 @@ msgstr ""
 msgid "Point of Sale"
 msgstr "Mesto Prodaje"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:report.pos.order:point_of_sale_multicurrency.view_report_pos_order_graph
 #: view:report.pos.order:point_of_sale_multicurrency.view_report_pos_order_search
 msgid "Point of Sale Analysis"
 msgstr "POS Analiza"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:product.template,income_pdt:0
 msgid "Point of Sale Cash In"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:product.template,expense_pdt:0
 msgid "Point of Sale Cash Out"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:product.template,pos_categ_id:0
 msgid "Point of Sale Category"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.config:point_of_sale_multicurrency.view_pos_config_search
 msgid "Point of Sale Config"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.config:point_of_sale_multicurrency.view_pos_config_form
 #: view:pos.config:point_of_sale_multicurrency.view_pos_config_tree
 msgid "Point of Sale Configuration"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.config,name:0
 msgid "Point of Sale Name"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.order:point_of_sale_multicurrency.view_pos_pos_form
 msgid "Point of Sale Orders"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:ir.model,name:point_of_sale_multicurrency.model_report_pos_order
 msgid "Point of Sale Orders Statistics"
 msgstr "POS Statistika"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:ir.model,name:point_of_sale_multicurrency.model_pos_make_payment
 msgid "Point of Sale Payment"
 msgstr "POS Placanja"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.session:point_of_sale_multicurrency.view_pos_session_form
 #: view:pos.session:point_of_sale_multicurrency.view_pos_session_search
 #: view:pos.session:point_of_sale_multicurrency.view_pos_session_tree
 msgid "Point of Sale Session"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:ir.actions.act_window,name:point_of_sale_multicurrency.action_pos_config_pos
 #: model:ir.ui.menu,name:point_of_sale_multicurrency.menu_pos_config_pos
 #: view:pos.session:point_of_sale_multicurrency.view_pos_session_search
 msgid "Point of Sales"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.category:point_of_sale_multicurrency.product_pos_category_form_view
 msgid "Pos Categories"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:ir.actions.act_window,name:point_of_sale_multicurrency.product_pos_category_action
 #: model:ir.ui.menu,name:point_of_sale_multicurrency.menu_product_pos_category
 msgid "Pos Product Categories"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.confirm:point_of_sale_multicurrency.view_pos_confirm
 msgid "Post All Orders"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:ir.model,name:point_of_sale_multicurrency.model_pos_confirm
 msgid "Post POS Journal Entries"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:324
 #, python-format
 msgid "Postcode"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.order:point_of_sale_multicurrency.view_pos_order_filter
 #: selection:pos.order,state:0
 msgid "Posted"
 msgstr "Proknjiženo"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:pos.category,name:point_of_sale_multicurrency.pommes_de_terre
 #: model:product.template,name:point_of_sale_multicurrency.pomme_de_terre_product_template
 msgid "Potatoes"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:167
 #: view:website:point_of_sale_multicurrency.report_detailsofsales
@@ -2684,67 +2684,67 @@ msgstr ""
 msgid "Price"
 msgstr "Cena"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.config,barcode_price:0
 msgid "Price Barcodes"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.config,pricelist_id:0 field:pos.order,pricelist_id:0
 msgid "Pricelist"
 msgstr "Cenovnik"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/js/screens.js:936
 #, python-format
 msgid "Print"
 msgstr "Štampaj"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:website:point_of_sale_multicurrency.report_detailsofsales
 #: view:website:point_of_sale_multicurrency.report_usersproduct
 msgid "Print Date"
 msgstr "Datum Stampe"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:863
 #, python-format
 msgid "Print Receipt"
 msgstr "Stampa Racuna"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.details:point_of_sale_multicurrency.view_pos_details
 msgid "Print Report"
 msgstr "Stampa Izvestaja"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:website:point_of_sale_multicurrency.report_payment
 #: view:website:point_of_sale_multicurrency.report_saleslines
 msgid "Print date"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.config,iface_print_via_proxy:0
 msgid "Print via Proxy"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/js/widgets.js:888
 #, python-format
 msgid "Printer"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/js/devices.js:419
 #, python-format
 msgid "Printing Error: "
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.order.line,product_id:0
 #: view:report.pos.order:point_of_sale_multicurrency.view_report_pos_order_search
 #: field:report.pos.order,product_id:0
@@ -2754,38 +2754,38 @@ msgstr ""
 msgid "Product"
 msgstr "Proizvod"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.config,barcode_product:0
 msgid "Product Barcodes"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:report.pos.order:point_of_sale_multicurrency.view_report_pos_order_search
 #: field:report.pos.order,product_categ_id:0
 msgid "Product Category"
 msgstr "Kategorija Proizvoda"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:report.transaction.pos,product_nb:0
 msgid "Product Nb."
 msgstr "Br Proizvoda"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.category:point_of_sale_multicurrency.product_pos_category_tree_view
 msgid "Product Product Categories"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:report.pos.order,product_qty:0
 msgid "Product Quantity"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:ir.model,name:point_of_sale_multicurrency.model_product_template
 msgid "Product Template"
 msgstr "Šablon proizvoda"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:ir.actions.act_window,name:point_of_sale_multicurrency.product_template_action
 #: model:ir.ui.menu,name:point_of_sale_multicurrency.menu_point_of_sale_product
 #: model:ir.ui.menu,name:point_of_sale_multicurrency.menu_pos_products
@@ -2793,22 +2793,22 @@ msgstr "Šablon proizvoda"
 msgid "Products"
 msgstr "Proizvodi"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:ir.model,name:point_of_sale_multicurrency.model_pos_category
 msgid "Public Category"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.session:point_of_sale_multicurrency.view_pos_session_form
 msgid "Put"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:ir.actions.act_window,name:point_of_sale_multicurrency.action_pos_box_in
 msgid "Put Money In"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:157
 #: view:website:point_of_sale_multicurrency.report_detailsofsales
@@ -2818,12 +2818,12 @@ msgstr ""
 msgid "Qty"
 msgstr "Kol."
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:website:point_of_sale_multicurrency.report_detailsofsales
 msgid "Qty of product"
 msgstr "Kol.proizvoda"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.order.line,qty:0 field:report.sales.by.user.pos,qty:0
 #: field:report.sales.by.user.pos.month,qty:0
 #: view:website:point_of_sale_multicurrency.report_receipt
@@ -2831,55 +2831,55 @@ msgstr "Kol.proizvoda"
 msgid "Quantity"
 msgstr "Količina"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.order:point_of_sale_multicurrency.view_pos_pos_form
 msgid "Re-Print"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:864
 #, python-format
 msgid "Read Weighting Scale"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.session:point_of_sale_multicurrency.view_pos_session_form
 msgid "Real Closing Balance"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:ir.actions.report.xml,name:point_of_sale_multicurrency.action_report_pos_receipt
 #: view:pos.config:point_of_sale_multicurrency.view_pos_config_form
 msgid "Receipt"
 msgstr "Racun"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.config,receipt_footer:0
 msgid "Receipt Footer"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.config,receipt_header:0
 msgid "Receipt Header"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.order,pos_reference:0
 msgid "Receipt Ref"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.poivron_rouges_product_template
 msgid "Red Pepper"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.pamplemousse_rouge_pamplemousse_product_template
 msgid "Red grapefruit"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:847
 #: field:pos.ean_wizard,ean13_pattern:0
@@ -2888,237 +2888,237 @@ msgstr ""
 msgid "Reference"
 msgstr "Referenca"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:481
 #, python-format
 msgid "Remaining:"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.order:point_of_sale_multicurrency.view_pos_pos_form
 msgid "Reprint"
 msgstr "Reprint"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:833
 #, python-format
 msgid "Reset"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:account.bank.statement:point_of_sale_multicurrency.view_cash_statement_pos_tree
 #: field:pos.session,user_id:0
 #: view:website:point_of_sale_multicurrency.report_sessionsummary
 msgid "Responsible"
 msgstr "Odgovoran"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.session.opening:point_of_sale_multicurrency.pos_session_opening_form_view
 msgid "Resume Session"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: code:addons/point_of_sale_multicurrency/point_of_sale_multicurrency.py:926
 #: view:pos.order:point_of_sale_multicurrency.view_pos_pos_form
 #, python-format
 msgid "Return Products"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.rochefort_8_33cl_product_template
 msgid "Rochefort \"8\" 33cl"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:pos.category,name:point_of_sale_multicurrency.legumes_racine
 msgid "Root vegetables"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:ir.actions.act_window,name:point_of_sale_multicurrency.action_report_pos_details
 #: model:ir.ui.menu,name:point_of_sale_multicurrency.menu_pos_details
 msgid "Sale Details"
 msgstr "Detalji Prodaje"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.config,journal_id:0 field:pos.order,sale_journal:0
 msgid "Sale Journal"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:ir.actions.act_window,name:point_of_sale_multicurrency.action_pos_order_line
 #: model:ir.actions.act_window,name:point_of_sale_multicurrency.action_pos_order_line_day
 #: model:ir.actions.act_window,name:point_of_sale_multicurrency.action_pos_order_line_form
 msgid "Sale line"
 msgstr "Linija prodaje"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:ir.model,name:point_of_sale_multicurrency.model_pos_details
 msgid "Sales Details"
 msgstr "detalji Prodaje"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:report.transaction.pos,journal_id:0
 msgid "Sales Journal"
 msgstr "Dnevnik Prodaje"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:ir.actions.report.xml,name:point_of_sale_multicurrency.pos_lines_report
 msgid "Sales Lines"
 msgstr "Linije Prodaje"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:ir.actions.act_window,name:point_of_sale_multicurrency.action_report_sales_by_user_pos_today
 #: view:report.sales.by.user.pos:point_of_sale_multicurrency.view_report_sales_by_user_pos_graph
 #: view:report.sales.by.user.pos.month:point_of_sale_multicurrency.view_report_sales_by_user_pos_month_graph
 msgid "Sales by User"
 msgstr "Prodaja po Korisniku"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:ir.actions.act_window,name:point_of_sale_multicurrency.action_report_sales_by_user_pos_month
 msgid "Sales by User Monthly"
 msgstr "Mesecna prodaja po korisniku"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:ir.actions.act_window,name:point_of_sale_multicurrency.action_trans_pos_tree_today
 msgid "Sales by day"
 msgstr "Dnevna Prodaja"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:ir.actions.act_window,name:point_of_sale_multicurrency.action_trans_pos_tree_month
 msgid "Sales by month"
 msgstr "Mesecna Prodaja"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:ir.actions.act_window,name:point_of_sale_multicurrency.action_trans_pos_tree
 #: model:ir.model,name:point_of_sale_multicurrency.model_report_sales_by_user_pos
 msgid "Sales by user"
 msgstr "Prodaje po korisniku"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:ir.model,name:point_of_sale_multicurrency.model_report_sales_by_user_pos_month
 msgid "Sales by user monthly"
 msgstr "Mesecna prodaja po korisniku"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:website:point_of_sale_multicurrency.report_detailsofsales
 msgid "Sales total(Revenue)"
 msgstr "Prodaja Ukupno ( pregled)"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.order:point_of_sale_multicurrency.view_pos_order_filter
 #: field:pos.order,user_id:0
 msgid "Salesman"
 msgstr "Prodavac"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.details,user_ids:0
 msgid "Salespeople"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:report.pos.order:point_of_sale_multicurrency.view_report_pos_order_search
 #: field:report.pos.order,user_id:0
 msgid "Salesperson"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.san_pellegrino_1l_product_template
 msgid "San Pellegrino 1L"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/js/widgets.js:896
 #, python-format
 msgid "Scale"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.config,iface_scan_via_proxy:0
 msgid "Scan via Proxy"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/js/widgets.js:879
 #, python-format
 msgid "Scanner"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:account.bank.statement:point_of_sale_multicurrency.view_pos_confirm_cash_statement_filter
 #: view:account.bank.statement:point_of_sale_multicurrency.view_pos_open_cash_statement_filter
 msgid "Search Cash Statements"
 msgstr "Pretrazi gotovinske izjave"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:422
 #, python-format
 msgid "Search Customers"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:215
 #, python-format
 msgid "Search Products"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.order:point_of_sale_multicurrency.view_pos_order_filter
 msgid "Search Sales Order"
 msgstr "Pretrazi Prodajne zahteve"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:430
 #, python-format
 msgid "Select Customer"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.session.opening:point_of_sale_multicurrency.pos_session_opening_form_view
 msgid "Select your Point of Sale"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: code:addons/point_of_sale_multicurrency/point_of_sale_multicurrency.py:1033
 #, python-format
 msgid "Selected orders do not have the same session!"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.config,iface_self_checkout:0
 msgid "Self Checkout Mode"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:account.journal,self_checkout_payment_method:0
 msgid "Self Checkout Payment Method"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.category,sequence:0
 msgid "Sequence"
 msgstr "Sekvenca"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.order,sequence_number:0
 msgid "Sequence Number"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:540
 #, python-format
 msgid "Served by"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: code:addons/point_of_sale_multicurrency/wizard/pos_session_opening.py:64
 #: view:pos.order:point_of_sale_multicurrency.view_pos_order_filter
 #: field:pos.order,session_id:0
@@ -3126,52 +3126,52 @@ msgstr ""
 msgid "Session"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.session,name:0
 msgid "Session ID"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.session.opening,pos_state:0
 msgid "Session Status"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:ir.actions.report.xml,name:point_of_sale_multicurrency.action_report_pos_session_summary
 msgid "Session Summary"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:website:point_of_sale_multicurrency.report_sessionsummary
 msgid "Session Summary:"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.session:point_of_sale_multicurrency.view_pos_session_form
 msgid "Session:"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:ir.actions.act_window,name:point_of_sale_multicurrency.act_pos_config_sessions
 #: field:pos.config,session_ids:0
 msgid "Sessions"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/js/screens.js:681
 #, python-format
 msgid "Set Customer"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:832
 #, python-format
 msgid "Set Weight"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:product.product:point_of_sale_multicurrency.product_normal_form_view_inherit_ean
 #: view:product.template:point_of_sale_multicurrency.product_template_form_view_inherit_ean
 #: view:res.partner:point_of_sale_multicurrency.view_partner_property_form
@@ -3179,53 +3179,53 @@ msgstr ""
 msgid "Set a Custom EAN"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.config:point_of_sale_multicurrency.view_pos_config_form
 msgid "Set to Active"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.config:point_of_sale_multicurrency.view_pos_config_form
 msgid "Set to Deprecated"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.config:point_of_sale_multicurrency.view_pos_config_form
 msgid "Set to Inactive"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:934
 #, python-format
 msgid "Shop:"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:852
 #, python-format
 msgid "Show All Unsent Orders"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.session.opening,show_config:0
 msgid "Show Config"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:83
 #, python-format
 msgid "Skip"
 msgstr "Preskoci"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.category,image_small:0
 msgid "Smal-sized image"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: help:pos.category,image_small:0
 msgid ""
 "Small-sized image of the category. It is automatically resized as a 64x64px "
@@ -3233,122 +3233,122 @@ msgid ""
 " required."
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:pos.category,name:point_of_sale_multicurrency.soda
 msgid "Soda"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:842
 #, python-format
 msgid "Soda 33cl"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.spa_gazeuse_1,5l_product_template
 msgid "Spa Barisart 1.5l"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.spa_gazeuse_33cl_product_template
 msgid "Spa Barisart 33cl"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.spa_gazeuse_50cl_product_template
 msgid "Spa Barisart 50cl"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.spa_et_fruit_50cl_product_template
 msgid "Spa Fruit and Orange 50cl"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.spa_1l_product_template
 msgid "Spa Reine 1L"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.spa_2l_product_template
 msgid "Spa Reine 2L"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.spa_33cl_product_template
 msgid "Spa Reine 33cl"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.spa_50cl_product_template
 msgid "Spa Reine 50cl"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:pos.category,name:point_of_sale_multicurrency.sparkling_water
 msgid "Sparkling Water"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:pos.category,name:point_of_sale_multicurrency.special_beers
 msgid "Special Beers"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:website:point_of_sale_multicurrency.report_detailsofsales
 msgid "Start Period"
 msgstr "Startni period"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:ir.actions.act_url,name:point_of_sale_multicurrency.action_pos_pos
 msgid "Start Point of Sale"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.session,cash_register_balance_start:0
 #: view:website:point_of_sale_multicurrency.report_sessionsummary
 #: view:website:point_of_sale_multicurrency.report_statement
 msgid "Starting Balance"
 msgstr "Pocetno Stanje"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:website:point_of_sale_multicurrency.report_usersproduct
 msgid "Starting Date"
 msgstr "Pocetni Datum"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:ir.actions.report.xml,name:point_of_sale_multicurrency.action_report_account_statement
 #: view:website:point_of_sale_multicurrency.report_statement
 msgid "Statement"
 msgstr "Izjava"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:website:point_of_sale_multicurrency.report_sessionsummary
 msgid "Statement Details:"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:website:point_of_sale_multicurrency.report_statement
 msgid "Statement Name"
 msgstr "Ime Izjave"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:website:point_of_sale_multicurrency.report_sessionsummary
 msgid "Statement Summary"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.order:point_of_sale_multicurrency.view_pos_pos_form
 msgid "Statement lines"
 msgstr "LInije Izjave"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.session:point_of_sale_multicurrency.view_pos_session_form
 msgid "Statements"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:account.bank.statement:point_of_sale_multicurrency.view_pos_confirm_cash_statement_filter
 #: view:account.bank.statement:point_of_sale_multicurrency.view_pos_open_cash_statement_filter
 #: field:pos.config,state:0 view:pos.order:point_of_sale_multicurrency.view_pos_order_filter
@@ -3358,22 +3358,22 @@ msgstr ""
 msgid "Status"
 msgstr "Status"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.stella_33cl_product_template
 msgid "Stella Artois 33cl"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.stella_50cl_product_template
 msgid "Stella Artois 50cl"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.config,stock_location_id:0
 msgid "Stock Location"
 msgstr "Lokacija zaliha"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:316
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:317
@@ -3381,12 +3381,12 @@ msgstr "Lokacija zaliha"
 msgid "Street"
 msgstr "Ulica"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.limon_product_template
 msgid "Stringers"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:587
 #: field:pos.order.line,price_subtotal_incl:0
@@ -3394,61 +3394,61 @@ msgstr ""
 msgid "Subtotal"
 msgstr "Subtotal"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.order.line,price_subtotal:0
 msgid "Subtotal w/o Tax"
 msgstr "Medjuzbir w/o poreza"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:969
 #, python-format
 msgid "Subtotal:"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: help:pos.session,cash_register_balance_end:0
 msgid "Sum of opening balance and transactions."
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.order.line:point_of_sale_multicurrency.view_pos_order_line
 msgid "Sum of subtotals"
 msgstr "Suma Subtotala"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:website:point_of_sale_multicurrency.report_detailsofsales
 msgid "Summary"
 msgstr "Sumarno"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.session:point_of_sale_multicurrency.view_pos_session_form
 msgid "Summary by Payment Methods"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: selection:report.pos.order,state:0
 msgid "Synchronized"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:600
 #, python-format
 msgid "TOTAL"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.session:point_of_sale_multicurrency.view_pos_session_form
 msgid "Take"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:ir.actions.act_window,name:point_of_sale_multicurrency.action_pos_box_out
 msgid "Take Money Out"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: code:addons/point_of_sale_multicurrency/point_of_sale_multicurrency.py:1184
 #: code:addons/point_of_sale_multicurrency/point_of_sale_multicurrency.py:1201
 #: view:website:point_of_sale_multicurrency.report_saleslines
@@ -3456,7 +3456,7 @@ msgstr ""
 msgid "Tax"
 msgstr "Porez"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:353
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:400
@@ -3464,7 +3464,7 @@ msgstr "Porez"
 msgid "Tax ID"
 msgstr "ID takse"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.order,amount_tax:0
 #: view:website:point_of_sale_multicurrency.report_detailsofsales
 #: view:website:point_of_sale_multicurrency.report_receipt
@@ -3472,27 +3472,27 @@ msgstr "ID takse"
 msgid "Taxes"
 msgstr "Porezi"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:813
 #, python-format
 msgid "Taxes:"
 msgstr "Porezi:"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:524
 #, python-format
 msgid "Tel:"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: code:addons/point_of_sale_multicurrency/point_of_sale_multicurrency.py:1121
 #, python-format
 msgid "The POS order must have lines when calling this method"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:690
 #, python-format
@@ -3501,7 +3501,7 @@ msgid ""
 "                    or action associated with the scanned barcode."
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:93
 #, python-format
@@ -3510,91 +3510,91 @@ msgid ""
 "                        a modern browser like"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: constraint:pos.config:0
 msgid ""
 "The company of a payment method is different than the one of point of sale"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: constraint:pos.config:0
 msgid ""
 "The company of the sale journal is different than the one of point of sale"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: constraint:pos.config:0
 msgid ""
 "The company of the stock location is different than the one of point of sale"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: help:pos.config,proxy_ip:0
 msgid ""
 "The hostname or ip address of the hardware proxy, Will be autodetected if "
 "left empty"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: sql_constraint:pos.session:0
 msgid "The name of this POS Session must be unique !"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/js/screens.js:1315
 #, python-format
 msgid "The order could not be sent"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: help:pos.config,barcode_discount:0
 msgid "The pattern that identifies a product with a barcode encoded discount"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: help:pos.config,barcode_price:0
 msgid "The pattern that identifies a product with a barcode encoded price"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: help:pos.config,barcode_weight:0
 msgid "The pattern that identifies a product with a barcode encoded weight"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: help:pos.config,barcode_cashier:0
 msgid "The pattern that identifies cashier login barcodes"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: help:pos.config,barcode_customer:0
 msgid "The pattern that identifies customer's client card barcodes"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: help:pos.config,barcode_product:0
 msgid "The pattern that identifies product barcodes"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: help:pos.session,config_id:0
 msgid "The physical point of sale you will use."
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/js/screens.js:830
 #, python-format
 msgid "The provided file could not be read due to an unknown error"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.session.opening:point_of_sale_multicurrency.pos_session_opening_form_view
 msgid "The session"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.open.statement:point_of_sale_multicurrency.view_pos_open_statement
 msgid ""
 "The system will open all cash registers, so that you can start recording "
@@ -3602,26 +3602,26 @@ msgid ""
 "using their CashBox tab."
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: code:addons/point_of_sale_multicurrency/point_of_sale_multicurrency.py:500
 #, python-format
 msgid ""
 "The type of the journal for your payment method should be bank or cash "
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.session,cash_register_balance_end:0
 msgid "Theoretical Closing Balance"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:725
 #, python-format
 msgid "There are no unsent orders"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:144
 #, python-format
@@ -3630,7 +3630,7 @@ msgid ""
 "you sure you want to exit?"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/js/screens.js:1290
 #, python-format
@@ -3640,13 +3640,13 @@ msgid ""
 " Please pay the exact amount or add a cash payment method in the point of sale configuration"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: code:addons/point_of_sale_multicurrency/wizard/pos_box.py:23
 #, python-format
 msgid "There is no cash register for this PoS Session"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: code:addons/point_of_sale_multicurrency/point_of_sale_multicurrency.py:873
 #, python-format
 msgid ""
@@ -3654,13 +3654,13 @@ msgid ""
 "\"%s\" (id:%d)."
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: code:addons/point_of_sale_multicurrency/point_of_sale_multicurrency.py:871
 #, python-format
 msgid "There is no receivable account defined to make payment."
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/js/screens.js:1261
 #, python-format
@@ -3668,7 +3668,7 @@ msgid ""
 "There must be at least one product in your order before it can be validated"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: help:account.journal,amount_authorized_diff:0
 msgid ""
 "This field depicts the maximum difference allowed between the ending balance"
@@ -3677,14 +3677,14 @@ msgid ""
 "of his session saying that he needs to contact his manager."
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: help:pos.category,image:0
 msgid ""
 "This field holds the image used as image for the cateogry, limited to "
 "1024x1024px."
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/js/widgets.js:813
 #, python-format
@@ -3693,39 +3693,39 @@ msgid ""
 "storage. You will lose all the data. This operation cannot be undone."
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: help:pos.config,sequence_id:0
 msgid ""
 "This sequence is automatically created by Odoo but you can change it to "
 "customize the reference numbers of your orders."
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: help:product.template,pos_categ_id:0
 msgid "Those categories are used to group similar products for point of sale."
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.timmermans_faro_37,5cl_product_template
 msgid "Timmermans Faro 37.5cl"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.timmermans_geuze_37,5cl_product_template
 msgid "Timmermans Geuze 37.5cl"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.timmermans_kriek_37,5cl_product_template
 msgid "Timmermans Kriek 37.5cl"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:product.template,to_weight:0
 msgid "To Weigh With Scale"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: code:addons/point_of_sale_multicurrency/point_of_sale_multicurrency.py:910
 #, python-format
 msgid ""
@@ -3733,27 +3733,27 @@ msgid ""
 "register the refund."
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.session:point_of_sale_multicurrency.view_pos_session_search
 msgid "Today"
 msgstr "Danas"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:ir.actions.report.xml,name:point_of_sale_multicurrency.pos_payment_report
 msgid "Today's Payment"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:website:point_of_sale_multicurrency.report_payment
 msgid "Today's Payments"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:pos.category,name:point_of_sale_multicurrency.tomates
 msgid "Tomatos"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.order,amount_total:0
 #: view:pos.session:point_of_sale_multicurrency.view_pos_session_form
 #: field:report.sales.by.user.pos,amount:0
@@ -3766,77 +3766,77 @@ msgstr ""
 msgid "Total"
 msgstr "Ukupno"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.session,cash_register_total_entry_encoding:0
 msgid "Total Cash Transaction"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:report.pos.order,total_discount:0
 msgid "Total Discount"
 msgstr "Ukupni Popust"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:report.pos.order,price_total:0
 msgid "Total Price"
 msgstr "Ukupna cena"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:report.transaction.pos:point_of_sale_multicurrency.view_trans_pos_user_tree
 msgid "Total Transaction"
 msgstr "Ukupna Transakcija"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:website:point_of_sale_multicurrency.report_sessionsummary
 msgid "Total Transactions"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:website:point_of_sale_multicurrency.report_saleslines
 msgid "Total Without Taxes"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:website:point_of_sale_multicurrency.report_detailsofsales
 msgid "Total discount"
 msgstr "Popust Ukupno"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:website:point_of_sale_multicurrency.report_detailsofsales
 msgid "Total invoiced"
 msgstr "Ukupno fakturisano"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: help:pos.session,cash_register_total_entry_encoding:0
 msgid "Total of all paid sale orders"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: help:pos.session,cash_register_balance_end_real:0
 msgid "Total of closing cash control lines."
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: help:pos.session,cash_register_balance_start:0
 msgid "Total of opening cash control lines."
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:website:point_of_sale_multicurrency.report_detailsofsales
 msgid "Total of the day"
 msgstr "Dnevni pazar"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:website:point_of_sale_multicurrency.report_detailsofsales
 msgid "Total paid"
 msgstr "Ukupno placanje"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.order.line:point_of_sale_multicurrency.view_pos_order_line
 msgid "Total qty"
 msgstr "Ukupna kol."
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:812
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:989
@@ -3844,25 +3844,25 @@ msgstr "Ukupna kol."
 msgid "Total:"
 msgstr "Ukupno:"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: code:addons/point_of_sale_multicurrency/point_of_sale_multicurrency.py:1214
 #, python-format
 msgid "Trade Receivables"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: code:addons/point_of_sale_multicurrency/point_of_sale_multicurrency.py:653
 #, python-format
 msgid "Unable to Delete!"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: code:addons/point_of_sale_multicurrency/point_of_sale_multicurrency.py:841
 #, python-format
 msgid "Unable to cancel the picking."
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: code:addons/point_of_sale_multicurrency/point_of_sale_multicurrency.py:399
 #, python-format
 msgid ""
@@ -3870,27 +3870,27 @@ msgid ""
 "of sale."
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.order.line,price_unit:0 view:website:point_of_sale_multicurrency.report_payment
 #: view:website:point_of_sale_multicurrency.report_saleslines
 msgid "Unit Price"
 msgstr "Cena komada"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:686
 #, python-format
 msgid "Unknown Barcode"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:845
 #, python-format
 msgid "Unknown Product"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:723
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:850
@@ -3898,14 +3898,14 @@ msgstr ""
 msgid "Unsent Orders"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/js/screens.js:814
 #, python-format
 msgid "Unsupported File Format"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.session:point_of_sale_multicurrency.view_pos_session_search
 #: field:report.sales.by.user.pos,user_id:0
 #: field:report.sales.by.user.pos.month,user_id:0
@@ -3916,18 +3916,18 @@ msgstr ""
 msgid "User"
 msgstr "Корисник"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:ir.actions.report.xml,name:point_of_sale_multicurrency.report_user_label
 msgid "User Labels"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:ir.actions.report.xml,name:point_of_sale_multicurrency.action_report_pos_users_product
 #: view:website:point_of_sale_multicurrency.report_usersproduct
 msgid "User's Product"
 msgstr "Korisnicki Proizvod"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:933
 #: view:website:point_of_sale_multicurrency.report_receipt
@@ -3935,59 +3935,59 @@ msgstr "Korisnicki Proizvod"
 msgid "User:"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:ir.model,name:point_of_sale_multicurrency.model_res_users
 #: view:website:point_of_sale_multicurrency.report_detailsofsales
 msgid "Users"
 msgstr "Korisnici"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:527
 #, python-format
 msgid "VAT:"
 msgstr "PDV:"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/js/screens.js:1070
 #, python-format
 msgid "Validate"
 msgstr "Ovjeri"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.session:point_of_sale_multicurrency.view_pos_session_form
 msgid "Validate & Open Session"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.session:point_of_sale_multicurrency.view_pos_session_form
 msgid "Validate Closing & Post Entries"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.config,iface_vkeyboard:0
 msgid "Virtual KeyBoard"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:pos.category,name:point_of_sale_multicurrency.water
 msgid "Water"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:pos.config,barcode_weight:0
 msgid "Weight Barcodes"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:858
 #, python-format
 msgid "Weighting"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:786
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:953
@@ -3995,29 +3995,29 @@ msgstr ""
 msgid "With a"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:report.pos.order:point_of_sale_multicurrency.view_report_pos_order_search
 msgid "Year"
 msgstr "Godina"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.poivron_jaunes_product_template
 msgid "Yellow Peppers"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.session.opening:point_of_sale_multicurrency.pos_session_opening_form_view
 msgid ""
 "You can continue sales from the touchscreen interface by clicking on \"Start"
 " Selling\" or close the cash register session."
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.session:point_of_sale_multicurrency.view_pos_session_form
 msgid "You can define another list of available currencies on the"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: code:addons/point_of_sale_multicurrency/point_of_sale_multicurrency.py:640
 #, python-format
 msgid ""
@@ -4025,7 +4025,7 @@ msgid ""
 "already been issued."
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: code:addons/point_of_sale_multicurrency/point_of_sale_multicurrency.py:530
 #, python-format
 msgid ""
@@ -4033,18 +4033,18 @@ msgid ""
 "'paid' status"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: constraint:pos.session:0
 msgid ""
 "You cannot create two active sessions related to the same point of sale!"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: constraint:pos.session:0
 msgid "You cannot create two active sessions with the same responsible!"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: code:addons/point_of_sale_multicurrency/point_of_sale_multicurrency.py:1434
 #, python-format
 msgid ""
@@ -4052,7 +4052,7 @@ msgid ""
 "still opened."
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/js/screens.js:1271
 #, python-format
@@ -4061,12 +4061,12 @@ msgid ""
 "method to return money to the customer."
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: constraint:pos.config:0
 msgid "You cannot have two cash controls in one Point Of Sale !"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: code:addons/point_of_sale_multicurrency/point_of_sale_multicurrency.py:545
 #, python-format
 msgid ""
@@ -4074,7 +4074,7 @@ msgid ""
 "Please first close this one to use this point of sale."
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: code:addons/point_of_sale_multicurrency/wizard/pos_open_statement.py:49
 #, python-format
 msgid ""
@@ -4086,13 +4086,13 @@ msgid ""
 "Methods\"."
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: code:addons/point_of_sale_multicurrency/point_of_sale_multicurrency.py:887
 #, python-format
 msgid "You have to open at least one cashbox."
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: code:addons/point_of_sale_multicurrency/point_of_sale_multicurrency.py:1289
 #, python-format
 msgid ""
@@ -4100,40 +4100,40 @@ msgid ""
 "Please set one before choosing a product."
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.session.opening:point_of_sale_multicurrency.pos_session_opening_form_view
 msgid ""
 "You may have to control your cash amount in your cash register, before\n"
 "                          being able to start selling through the touchscreen interface."
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: code:addons/point_of_sale_multicurrency/point_of_sale_multicurrency.py:384
 #, python-format
 msgid "You should assign a Point of Sale to your session."
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/js/widgets.js:985
 #, python-format
 msgid "You will lose any data associated with the current order"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/js/screens.js:758
 #, python-format
 msgid "Your Internet connection is probably down."
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:ir.actions.act_window,name:point_of_sale_multicurrency.action_pos_session_opening
 #: model:ir.ui.menu,name:point_of_sale_multicurrency.menu_pos_session_opening
 msgid "Your Session"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: code:addons/point_of_sale_multicurrency/point_of_sale_multicurrency.py:497
 #, python-format
 msgid ""
@@ -4142,47 +4142,47 @@ msgid ""
 "it."
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/js/widgets.js:1240
 #, python-format
 msgid "Your internet connection is probably down."
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:804
 #, python-format
 msgid "Your shopping cart is empty"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:325
 #, python-format
 msgid "ZIP"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:product.template,name:point_of_sale_multicurrency.courgette_product_template
 msgid "Zucchini"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:778
 #, python-format
 msgid "at"
 msgstr "u"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:1078
 #, python-format
 msgid "caps lock"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:1105
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:1147
@@ -4190,7 +4190,7 @@ msgstr ""
 msgid "close"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:1063
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:1140
@@ -4198,27 +4198,27 @@ msgstr ""
 msgid "delete"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:788
 #, python-format
 msgid "discount"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: code:addons/point_of_sale_multicurrency/point_of_sale_multicurrency.py:398
 #: code:addons/point_of_sale_multicurrency/point_of_sale_multicurrency.py:593
 #, python-format
 msgid "error!"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: code:addons/point_of_sale_multicurrency/point_of_sale_multicurrency.py:140
 #, python-format
 msgid "not used"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:95
 #: view:pos.confirm:point_of_sale_multicurrency.view_pos_confirm
@@ -4231,12 +4231,12 @@ msgstr ""
 msgid "or"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.session:point_of_sale_multicurrency.view_pos_session_form
 msgid "payment method."
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/point_of_sale_multicurrency.py:599
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:1090
@@ -4245,7 +4245,7 @@ msgstr ""
 msgid "return"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:1091
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:1102
@@ -4253,24 +4253,24 @@ msgstr ""
 msgid "shift"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #. openerp-web
 #: code:addons/point_of_sale_multicurrency/static/src/xml/pos.xml:1064
 #, python-format
 msgid "tab"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: view:pos.session:point_of_sale_multicurrency.view_pos_session_form
 msgid "tab of the"
 msgstr ""
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: model:ir.model,name:point_of_sale_multicurrency.model_report_transaction_pos
 msgid "transaction for the pos"
 msgstr "Transakcija POS-a"
 
-#. module: point_of_sale
+#. module: point_of_sale_multicurrency
 #: field:account.bank.statement,pos_session_id:0
 #: field:account.bank.statement.line,pos_statement_id:0
 #: field:pos.order,amount_return:0

@@ -30,7 +30,7 @@
 MultiCurrency Quick and Easy sale process
 =========================================
 
-DISCLAIMER: copied from the point_of_sale addon
+DISCLAIMER: copied from the point_of_sale_multicurrency addon
 
 This module allows you to manage your shop sales very easily with a fully web based touchscreen interface.
 It is compatible with all PC tablets and the iPad, offering multiple payment methods.
@@ -50,7 +50,7 @@ Main Features
 * Refund previous sales
     """,
     'author': 'OpenERP SA + Luca Ferroni <luca@befair.it>',
-    'depends': ['sale_stock'], # it would we wonderful if we can base on the "point_of_sale" addon as a dependency. Now it is a dirty hack
+    'depends': ['sale_stock'], # it would we wonderful if we can base on the "point_of_sale_multicurrency" addon as a dependency. Now it is a dirty hack
     'data': [
         'data/report_paperformat.xml',
         'security/point_of_sale_security.xml',

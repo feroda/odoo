@@ -1,5 +1,5 @@
 -
-  In order to test the reports on Bank Statement defined in point_of_sale module, I create a bank statement line, confirm it and print the reports
+  In order to test the reports on Bank Statement defined in point_of_sale_multicurrency module, I create a bank statement line, confirm it and print the reports
 -
   I select the period and journal for the bank statement
 -
@@ -58,7 +58,7 @@
     from openerp import tools
     data, format = openerp.report.render_report(cr, uid, [ref('account_bank_statement_0')], 'point_of_sale_multicurrency.report_statement', {}, {})
     if tools.config['test_report_directory']:
-        file(os.path.join(tools.config['test_report_directory'], 'point_of_sale-statement.'+format), 'wb+').write(data)
+        file(os.path.join(tools.config['test_report_directory'], 'point_of_sale_multicurrency-statement.'+format), 'wb+').write(data)
 
 -
   Printing the user s product report
@@ -69,5 +69,5 @@
     from openerp import tools
     data, format = openerp.report.render_report(cr, uid, [ref('account_bank_statement_0')], 'point_of_sale_multicurrency.report_usersproduct', {}, {})
     if tools.config['test_report_directory']:
-        file(os.path.join(tools.config['test_report_directory'], 'point_of_sale-usersproduct.'+format), 'wb+').write(data)
+        file(os.path.join(tools.config['test_report_directory'], 'point_of_sale_multicurrency-usersproduct.'+format), 'wb+').write(data)
 

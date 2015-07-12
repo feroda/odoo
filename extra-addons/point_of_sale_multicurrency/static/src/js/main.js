@@ -1,9 +1,9 @@
 
-openerp.point_of_sale = function(instance) {
+openerp.point_of_sale_multicurrency = function(instance) {
 
-    instance.point_of_sale = {};
+    instance.point_of_sale_multicurrency = {};
 
-    var module = instance.point_of_sale;
+    var module = instance.point_of_sale_multicurrency;
 
     openerp_pos_db(instance,module);         // import db.js
 

@@ -504,7 +504,7 @@ class pos_session(osv.osv):
         self._confirm_orders(cr, uid, ids, context=context)
         self.write(cr, uid, ids, {'state' : 'closed'}, context=context)
 
-        obj = self.pool.get('ir.model.data').get_object_reference(cr, uid, 'point_of_sale', 'menu_point_root')[1]
+        obj = self.pool.get('ir.model.data').get_object_reference(cr, uid, 'point_of_sale_multicurrency', 'menu_point_root')[1]
         return {
             'type' : 'ir.actions.client',
             'name' : 'Point of Sale Menu',
