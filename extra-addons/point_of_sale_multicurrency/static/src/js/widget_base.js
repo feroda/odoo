@@ -1,4 +1,4 @@
-function openerp_pos_basewidget(instance, module){ //module is instance.point_of_sale
+function openerp_pos_basewidget(instance, module){ //module is instance.point_of_sale_multicurrency
 
     var round_di = instance.web.round_decimals;
     var round_pr = instance.web.round_precision
@@ -40,6 +40,9 @@ function openerp_pos_basewidget(instance, module){ //module is instance.point_of
             } else {
                 return (currency.symbol || '') + ' ' + amount;
             }
+        },
+        format_ctx_currency: function(amount, precision) {
+            return this.format_currency(amount, precision, this.pos.ctx_currency);
         },
         show: function(){
             this.$el.removeClass('oe_hidden');

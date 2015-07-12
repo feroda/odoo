@@ -1,4 +1,4 @@
-function openerp_pos_models(instance, module){ //module is instance.point_of_sale
+function openerp_pos_models(instance, module){ //module is instance.point_of_sale_multicurrency
     var QWeb = instance.web.qweb;
 	var _t = instance.web._t;
 
@@ -33,7 +33,18 @@ function openerp_pos_models(instance, module){ //module is instance.point_of_sal
             this.accounting_precision = 2; //TODO
             this.company_logo = null;
             this.company_logo_base64 = '';
+            this.available_currencies = [
+                {symbol:'$', position: 'after', rounding: 0.01, decimals: 2},
+                {symbol:"\u20ac", position: 'after', rounding: 0.01, decimals: 2},
+                {symbol:"€", position: 'after', rounding: 0.01, decimals: 2}
+            ];
+            //FILL CONVERSION FACTORS... BY HAND!! TODO
+            this.available_currencies[0].to_currency = 0.5;
+            this.available_currencies[1].to_currency = 1;
+            this.available_currencies[2].to_currency = 1;
+
             this.currency = null;
+            this.ctx_currency = null;
             this.shop = null;
             this.company = null;
             this.user = null;
@@ -255,13 +266,16 @@ function openerp_pos_models(instance, module){ //module is instance.point_of_sal
             fields: ['name','symbol','position','rounding','accuracy'],
             ids:    function(self){ return [self.pricelist.currency_id[0]]; },
             loaded: function(self, currencies){
-                self.available_currencies = currencies;
+                //SHOULD BE HERE...? NOW HARDCODE THEM 
+                //self.available_currencies = currencies;
                 self.currency = currencies[0];
                 if (self.currency.rounding > 0) {
                     self.currency.decimals = Math.ceil(Math.log(1.0 / self.currency.rounding) / Math.log(10));
                 } else {
                     self.currency.decimals = 0;
                 }
+                self.ctx_currency = self.currency;
+                self.ctx_currency.to_currency = 1;
 
             },
         },{
@@ -829,7 +843,7 @@ function openerp_pos_models(instance, module){ //module is instance.point_of_sal
         },
 
         get_conversion_factor: function() {
-            return 0.5; //TODO: conversion value to be computed
+            return this.pos.ctx_currency.to_currency;
         },
         get_converted_price: function(){
             return this.get_base_price()*this.get_conversion_factor();
@@ -1353,7 +1367,7 @@ function openerp_pos_models(instance, module){ //module is instance.point_of_sal
         defaults: {
             buffer: "0",
             mode: "quantity",
-            currency : (this.pos && this.pos.currency) ? this.pos.currency : {symbol:'$', position: 'after', rounding: 0.01, decimals: 2};
+            currency : (window.posmodel && window.posmodel.currency) ? window.posmodel.currency : {symbol:'$', position: 'after', rounding: 0.01, decimals: 2}
         },
         appendNewChar: function(newChar) {
             var oldBuffer;
@@ -1409,8 +1423,13 @@ function openerp_pos_models(instance, module){ //module is instance.point_of_sal
         resetValue: function(){
             this.set({buffer:'0'});
         },
-        changeCurrency = function(newCurrencySymbol) {
-            this.set({currency: this.pos.available_currencies[newCurrencySymbol]});
+        changeCurrency: function(newCurrencySymbol) {
+            var currencies = window.posmodel.available_currencies;
+            for (var i = 0; i < currencies.length; i++) {
+                if (currencies[i].symbol == newCurrencySymbol) { 
+                    window.posmodel.ctx_currency = currencies[i];
+                }
+            }
         }
     });
 }

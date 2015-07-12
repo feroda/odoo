@@ -1,4 +1,4 @@
-function openerp_pos_widgets(instance, module){ //module is instance.point_of_sale
+function openerp_pos_widgets(instance, module){ //module is instance.point_of_sale_multicurrency
     var QWeb = instance.web.qweb;
 	var _t = instance.web._t;
 

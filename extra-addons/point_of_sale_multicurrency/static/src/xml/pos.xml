@@ -174,7 +174,7 @@
             </button>
             <br />
             <button class="switch-currency-button">$</button>
-            <button class="switch-currency-button">EUR</button>
+            <button class="switch-currency-button">€</button>
             <br />
         </div>
     </t>
@@ -773,7 +773,7 @@
                 <t t-esc="widget.format_currency(line.get_display_price())"/>
             </span>
             <span class="price">
-                <t t-esc="widget.format_currency(line.get_converted_price())"/>
+                <t t-esc="widget.format_ctx_currency(line.get_converted_price())"/>
             </span>
             <ul class="info-list">
                 <t t-if="line.get_quantity_str() !== '1' || line.selected ">
